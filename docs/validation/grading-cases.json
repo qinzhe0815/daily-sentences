@@ -1,0 +1,218 @@
+{
+  "at": "2026-10-13T02:07:16.822Z",
+  "model": "qwen3.5:4b-q4_K_M",
+  "note": "Synthetic content checks; not an independent human language-quality certification.",
+  "samples": [
+    {
+      "name": "correct paraphrase",
+      "source": "我昨天没有去办公室，而是在家工作。",
+      "target": "en",
+      "answer": "I didn't go to the office yesterday; I worked from home instead.",
+      "expected": "Accept meaning, no major error.",
+      "feedback": {
+        "valid": true,
+        "overall": "该学习者准确传达了原文的核心含义，成功表达了‘昨天没去办公室’和‘在家工作’这两个关键信息。句子结构清晰，逻辑连贯，使用了分号连接两个并列的否定与肯定动作，体现了良好的语法掌握能力。",
+        "strength": "学习者精准捕捉了原句中的否定词'没有'（didn't）以及转折关系（instead），时态使用正确（yesterday对应过去时）。句式简洁地道，完全符合日常口语表达习惯。",
+        "issues": [],
+        "references": [
+          "I didn't go to the office yesterday; I worked from home instead.",
+          "I wasn't at the office yesterday, but I worked from home."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v6",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 7294
+    },
+    {
+      "name": "negation reversed",
+      "source": "我昨天没有去办公室，而是在家工作。",
+      "target": "en",
+      "answer": "I went to the office yesterday instead of working from home.",
+      "expected": "Identify reversal, substantially lower meaning.",
+      "feedback": {
+        "valid": true,
+        "overall": "学习者的翻译未能准确传达原文的否定含义。原句明确表达了“没有去办公室”和“在家工作”的事实，而回答却将其表述为相反的情况（去了办公室，而不是在家工作）。这种语义上的完全反转是严重的理解错误，导致整句话的意思与事实背道而驰。",
+        "strength": "学习者使用了正确的过去时态（went），并且尝试使用\"instead of\"结构来表达对比关系，这在语法结构上是合理的，只是逻辑方向弄反了。",
+        "issues": [
+          {
+            "quote": "I went to the office yesterday instead of working from home.",
+            "kind": "error",
+            "category": "meaning",
+            "severity": "major",
+            "explanation": "原句是否定句（没有去办公室），而回答将其写成了肯定句（去了办公室）。这种否定词的遗漏导致了语义的完全反转，属于重大错误。",
+            "suggestion": "I did not go to the office yesterday, but worked from home."
+          }
+        ],
+        "references": [
+          "I did not go to the office yesterday; I worked from home instead.",
+          "Yesterday I didn't go to the office and was working from home."
+        ],
+        "dimensions": {
+          "meaning": 20,
+          "grammar": 90,
+          "vocabulary": 80,
+          "naturalness": 75
+        },
+        "total": 58,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v6",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 10665
+    },
+    {
+      "name": "regional variant",
+      "source": "我喜欢这件蓝色毛衣的颜色。",
+      "target": "en",
+      "answer": "I like the colour of this blue jumper.",
+      "expected": "Accept British spelling and vocabulary.",
+      "feedback": {
+        "valid": true,
+        "overall": "学习者的翻译准确传达了原文的核心含义，即对毛衣颜色的喜爱。句子结构完整，语法正确，用词恰当，是一句非常自然的日常英语表达。",
+        "strength": "学习者准确地捕捉到了原句中'颜色'这一关键信息，并将其自然地融入到了关于蓝色毛衣的语境中。整个句子流畅、地道，完全符合目标语言的表达习惯。",
+        "issues": [],
+        "references": [
+          "I like the colour of this blue jumper.",
+          "I love the shade in this blue sweater."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v6",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 6489
+    },
+    {
+      "name": "wrong tense",
+      "source": "我昨天完成了这份报告。",
+      "target": "en",
+      "answer": "I will finish this report tomorrow.",
+      "expected": "Identify time and tense change.",
+      "feedback": {
+        "valid": true,
+        "overall": "学习者的回答虽然语法正确且使用了目标语言，但存在严重的语义错误。原句表达的是过去发生的动作（昨天完成），而回答将其转换为了将来时态（明天完成）。这种时态的彻底改变导致句子含义完全相反，属于重大语义偏差。",
+        "strength": "学习者能够识别出这是一个关于报告完成的陈述句，并使用了正确的英语语法结构（主语 + 助动词 + 动词原形），这表明其具备基本的语言构建能力。",
+        "issues": [
+          {
+            "quote": "I will finish this report tomorrow.",
+            "kind": "error",
+            "category": "meaning",
+            "severity": "major",
+            "explanation": "原句中的'昨天'和'完成'表明动作发生在过去，而回答使用了将来时'tomorrow'（明天）和'will finish'，导致时间逻辑完全颠倒。",
+            "suggestion": "I finished this report yesterday."
+          }
+        ],
+        "references": [
+          "I finished this report yesterday.",
+          "This report was completed by me yesterday."
+        ],
+        "dimensions": {
+          "meaning": 20,
+          "grammar": 95,
+          "vocabulary": 80,
+          "naturalness": 40
+        },
+        "total": 54,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v6",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 9815
+    },
+    {
+      "name": "French politeness",
+      "source": "请给我一杯水。",
+      "target": "fr",
+      "answer": "Pourriez-vous m'apporter un verre d'eau, s'il vous plaît ?",
+      "expected": "Accept polite equivalent without major meaning penalty.",
+      "feedback": {
+        "valid": true,
+        "overall": "学习者的翻译非常准确且自然，完美传达了中文原句的请求含义。句子结构完整，语气礼貌得体，完全符合日常对话场景的要求。",
+        "strength": "学习者成功使用了条件式（Pourriez-vous...）来表达委婉的请求，并恰当添加了 s'il vous plaît 以增强礼貌程度，体现了对法语语用规则的掌握。",
+        "issues": [],
+        "references": [
+          "Pourriez-vous m'apporter un verre d'eau, s'il vous plaît ?",
+          "Auriez-vous un verre d'eau à me donner, s'il vous plaît ?"
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v6",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 7070
+    },
+    {
+      "name": "Chinese equivalent",
+      "source": "Could you close the window, please?",
+      "sourceLanguage": "en",
+      "target": "zh",
+      "answer": "麻烦把窗户关一下，好吗？",
+      "expected": "Accept natural equivalent and explain in English.",
+      "feedback": {
+        "valid": true,
+        "overall": "The translation is accurate and natural, effectively conveying the polite request contained in the source text. The learner successfully captured both the imperative action ('close the window') and the softening politeness markers ('please', 'could you'). There are no significant errors or omissions that would hinder understanding.",
+        "strength": "The translation accurately captures the polite tone of the original English sentence using appropriate Chinese honorifics and question particles. The structure flows naturally for a native speaker.",
+        "issues": [],
+        "references": [
+          "麻烦把窗户关一下，好吗？",
+          "能请您关上窗户吗？"
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v6",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 7508
+    }
+  ]
+}

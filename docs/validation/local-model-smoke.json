@@ -1,0 +1,268 @@
+{
+  "at": "2026-10-13T02:01:07.344Z",
+  "model": "qwen3.5:4b-q4_K_M",
+  "note": "Protocol and content samples; human language-quality review is still required.",
+  "samples": [
+    {
+      "direction": "zh → en",
+      "question": {
+        "source": "我昨天帮妈妈打扫了房间。",
+        "context": "描述你上周日在家里的活动，特别是帮助家人的事情。",
+        "reference": "I helped my mother clean the room yesterday.",
+        "knowledge": [
+          "助动词 help 的用法：help sb. do sth. (帮助某人做某事)，后面接不带 to 的不定式。",
+          "一般过去时的构成：主语 + did/ed 形动词，这里动词 clean 变为 cleaned。",
+          "时间状语 yesterday 的位置：通常放在句首或谓语动词之后，用来强调动作发生的具体时间。",
+          "家庭词汇：mother (母亲), room (房间), clean (打扫)。"
+        ],
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "feedback": {
+        "valid": true,
+        "overall": "该回答准确传达了原文的核心信息，语法结构正确，时态使用恰当。虽然译文简洁直接，但完全符合目标语言习惯，能够清晰表达‘昨天帮妈妈打扫房间’这一事实，没有遗漏任何关键语义要素。",
+        "strength": "学习者准确使用了过去时（yesterday/helped），主谓宾结构清晰，词汇选择（help, mother, clean, room）精准且符合日常口语语境，成功表达了原文的完整含义。",
+        "issues": [],
+        "references": [
+          "I cleaned the room for my mom yesterday.",
+          "Yesterday I helped my mother tidy up the room."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 95,
+          "naturalness": 98
+        },
+        "total": 99,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 15515
+    },
+    {
+      "direction": "zh → fr",
+      "question": {
+        "source": "我昨天去超市，买了一些水果和牛奶。",
+        "context": "请描述你昨晚的一天的活动，包括你做了什么购物。",
+        "reference": "Hier, je suis allé(e) au supermarché et j'ai acheté des fruits et du lait.",
+        "knowledge": [
+          "过去时态：动词“去”变为“allé”，“买”变为“acheté”，需根据主语性别调整词尾。",
+          "不定冠词与量词：“一些”对应“des”；“水果”和“牛奶”作为不可数名词，分别用“les fruits”和“du lait”。",
+          "时间表达：“昨天”在法语中通常放在句首或句尾，常用“hier"
+        ],
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "feedback": {
+        "valid": true,
+        "overall": "该回答准确传达了原文的核心信息，涵盖了时间（昨天/昨晚）、地点（超市）及购买物品（水果和牛奶），符合题目要求的背景描述。语法结构完整，时态使用正确，是高质量的翻译。",
+        "strength": "学习者准确捕捉了原文的时间状语、动作主体及宾语，动词变位和介词搭配均符合法语规范，语义传递精准且自然流畅。",
+        "issues": [],
+        "references": [
+          "Hier, je suis allé(e) au supermarché et j'ai acheté des fruits et du lait.",
+          "Hier soir, je suis allé(e) au marché et j'ai acheté quelques fruits et du lait."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 95
+        },
+        "total": 99,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 12798
+    },
+    {
+      "direction": "en → zh",
+      "question": {
+        "source": "I'm planning to visit the old town this weekend because I've heard it's very atmospheric.",
+        "context": "You are talking about your plans for the upcoming weekend with a friend who is also traveling locally.",
+        "reference": "我这个周末打算去老街区，因为我听说那里氛围很好。",
+        "knowledge": [
+          "The word 'atmospheric' means having a beautiful or pleasant mood, often used to describe places like old towns that feel special.",
+          "'I've heard it's...' indicates the speaker is sharing information received from others, not personal experience."
+        ],
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "feedback": {
+        "valid": true,
+        "overall": "The translation is accurate and natural, effectively conveying the original meaning with appropriate register for a casual conversation between friends. The learner successfully captured the intent of visiting the old town due to its atmospheric quality without introducing any errors or awkward phrasing.",
+        "strength": "The translation accurately conveys the core message and uses natural-sounding Chinese suitable for daily communication.",
+        "issues": [],
+        "references": [
+          "我计划这个周末去老城区，因为听说那里很有氛围。",
+          "我这个周末打算去老街区，因为我听说那里氛围很好。"
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 10570
+    },
+    {
+      "direction": "en → fr",
+      "question": {
+        "source": "I really need to get up early tomorrow because my dentist is seeing me at eight o'clock.",
+        "context": "You are telling your roommate that you will be leaving before breakfast due to a medical appointment.",
+        "reference": "J'ai vraiment besoin de me lever tôt demain car mon dentiste me voit à huit heures.",
+        "knowledge": [
+          "The verb 'to get up' (se lever) indicates the action of waking and standing from bed.",
+          "Prepositional phrases like 'at eight o'clock' specify exact times in French using 'à' + hour."
+        ],
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "feedback": {
+        "valid": true,
+        "overall": "The translation is accurate and natural, effectively conveying the urgency and reason for leaving early. The use of 'me voit' correctly reflects the French usage of 'voir' in the sense of 'to see a patient', which is standard in this context. There are no errors; the response fully meets the requirements.",
+        "strength": "The translation accurately captures the speaker's need and the specific time of the appointment. The choice of 'me voit' demonstrates good understanding of French usage regarding medical appointments, avoiding the literal but incorrect 'me regarde'.",
+        "issues": [],
+        "references": [
+          "J'ai vraiment besoin de me lever tôt demain car mon dentiste me voit à huit heures.",
+          "Je dois absolument me lever tôt demain puisque mon dentiste m'a vu à huit heures."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 11829
+    },
+    {
+      "direction": "fr → zh",
+      "question": {
+        "source": "J'espère que tout se passera bien pour toi aujourd'hui.",
+        "context": "Un ami vous dit bonjour après avoir passé une journée difficile.",
+        "reference": "希望你今天一切顺利。",
+        "knowledge": [
+          "Le verbe « espérer » suivi de l'infinitif exprime un souhait sincère pour le bien-être de quelqu'un.",
+          "Dans la traduction chinoise, l'expression «  Hope you have a good day » se traduit souvent par une structure positive comme « ... tout se passera bien » ou « ... il n'y aura pas de problème ».",
+          "L'expression « tout se passera bien » est plus naturelle et courante que « tu ne feras rien de mal » dans ce contexte de souhait d'une journée agréable."
+        ],
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "feedback": {
+        "valid": true,
+        "overall": "La traduction est excellente et parfaitement adaptée au contexte. L'expression « J'espère que tout se passera bien pour toi aujourd'hui » a été rendue avec une fluidité naturelle en chinois (« Hope you have everything go well today »), capturant à la fois le ton chaleureux et l'intention de soutien d'un ami qui vient de passer une journée difficile. Aucune omission ni erreur n'est présente, et la formulation respecte les normes linguistiques courantes pour ce type d'expression de bienveillance.",
+        "strength": "La traduction est fidèle au sens original tout en étant très naturelle à l'oreille chinoise. Le choix des mots reflète parfaitement le registre amical et empathique du contexte.",
+        "issues": [],
+        "references": [
+          "希望你今天一切顺利。",
+          "祝你今天一切安好。"
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 14126
+    },
+    {
+      "direction": "fr → en",
+      "question": {
+        "source": "Je voudrais réserver une table pour deux ce soir à l'hôtel.",
+        "context": "Vous êtes en voyage et vous avez besoin d'un repas rapide. Il y a beaucoup de monde dans le restaurant, donc vous préférez éviter la file d'attente.",
+        "reference": "I would like to reserve a table for two this evening at the hotel.",
+        "knowledge": [
+          "Le verbe « vouloir » est suivi du participe présent (« voudrait ») pour exprimer une intention polie ou un souhait.",
+          "L'expression « réserver une table » signifie obtenir une place en restaurant avant l'arrivée."
+        ],
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "feedback": {
+        "valid": true,
+        "overall": "La traduction est excellente et parfaitement adaptée au contexte. L'élève a correctement identifié le registre formel approprié pour une demande de réservation dans un hôtel, en utilisant la structure 'I would like to...' qui exprime la politesse attendue dans ce scénario. Le vocabulaire choisi ('reserve', 'table', 'evening') est précis et naturel. Aucune erreur n'a été commise ; la réponse est complète, grammaticalement irréprochable et s'aligne parfaitement avec l'intention de l'énoncé original.",
+        "strength": "L'élève maîtrise parfaitement le registre formel ('I would like to') nécessaire pour une demande d'hôtel. Le vocabulaire est exact et la syntaxe est fluide, démontrant une bonne compréhension des nuances sociales du français vers l'anglais.",
+        "issues": [],
+        "references": [
+          "I'd like to reserve a table for two this evening at the hotel."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v5",
+          "scoringVersion": "40-25-20-15-v1"
+        }
+      },
+      "ok": true,
+      "elapsedMs": 14042
+    }
+  ]
+}
