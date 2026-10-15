@@ -1,6 +1,6 @@
 # Daily Sentences · 译日
 
-本地单用户的中／英／法翻译练习应用。依据 [PRD](PRD.md) 实现，支持六种翻译方向、五题表达诊断、独立对话、文字与语音草稿、多版本点评、追问、自适应难度、收藏复习及备份恢复。
+本地单用户的中／英／法翻译练习应用。依据 [PRD](PRD.md) 实现，支持六种翻译方向、五题表达诊断、本地分级语料优先出题、独立对话、文字与语音草稿、多版本点评、追问、自适应难度、收藏复习及备份恢复。
 
 服务端与客户端的启动步骤、AI 配置、日常操作和常见问题，见 [使用文档](docs/USAGE.md)。
 
@@ -63,6 +63,22 @@ ollama serve
 
 只有正常新题有效的首次作答参与调难。五题平均 ≥85 且最低 ≥70 升一级，平均 <60 降一级；修改、复习、诊断、跳过、无效作答和失败不参与。固定模式不自动变级或跨级浮动。
 
+## 本地分级语料库
+
+内置 **300 道中／英／法翻译任务**，来自 Tatoeba 官方 API 的 150 个直连句对，覆盖六个方向与 L1–L5。按语义家族隔离练习、诊断和维护评估；后者不参与出题。各分区、角色和场景的实际数量见 [发布报告](corpus/REPORT.md)。
+
+应用优先从本地库取符合方向、等级、角色及场景的未见任务；指定场景无覆盖或库用尽时由 AI 补充。题目卡标明来源，普通题点评后／诊断完成后可查看原文、译文双方署名和许可。自定义场景只做明确别名精确匹配，无法匹配时回退 AI。
+
+**这是实验语料：已完成自动筛选与 AI 编选；2026-10-15 按用户要求，300 道任务全部视为人工检查通过。** 账本分别统计用户要求视为通过与独立逐题审核记录，不补造审核者资质或逐题检查证据；真实学习者难度校准仍待完成。 来源可追溯不代表官方认证。取题本身不需模型；点评、追问、诊断总结和补充出题仍需要本地或在线 AI。
+
+[编写与维护规范](docs/CORPUS_GUIDE.md) · [人工审核与校准办法](docs/CORPUS_HUMAN_REVIEW.md) · [运行库](corpus/tasks.json) · [署名与许可](corpus/ATTRIBUTION.md)。上游文本各自适用 CC BY 2.0 FR 或 CC0 1.0，数据许可独立于项目代码。
+
+```sh
+npm run corpus:collect # 官方 API 采集，已缓存响应不重复下载
+npm run corpus:build   # 从快照与编选离线重建
+npm run corpus:check   # 检查构建产物一致性
+```
+
 ## 语音支持
 
 使用浏览器 `SpeechRecognition`／`webkitSpeechRecognition`，设置识别语言 `zh-CN`、`en-US`、`fr-FR`。支持能力取决于浏览器版本、操作系统、麦克风授权和识别服务。建议使用具备该 API 的 Chrome 或 Safari；本机 localhost 可作为安全上下文。内嵌浏览器与 Firefox 可能不支持。
@@ -73,6 +89,7 @@ ollama serve
 
 - `data/learning.sqlite`：正式学习数据、题目快照、作答版本、点评、追问、收藏、诊断和草稿。
 - `data/ai-config.json`：服务端 AI 配置及密钥，独立于学习记录。
+- `corpus/`：随源码分发的语料、官方快照、编选和署名；不依赖个人 `data/`。学习备份保留已出题快照，不复制整个语料库。
 - `data/models/`、`data/runtime/`：本地模型和运行时，不属于学习备份。
 - 设置页可导出完整 JSON 学习备份。导入先验证结构与关联、显示数量，再由用户明确确认替换；替换前在 `data/before-import-*.json` 自动保存旧数据。
 - 服务中断的请求在重启时标记中断；答案保留，可重试同一尝试。自动保存失败会明确显示未保存，浏览器临时草稿辅助恢复，不替代服务端正式记录。
@@ -88,6 +105,8 @@ npm run check
 # 已启动本地千问后：实际模型六方向出题／点评抽样
 node scripts/verify-local.mjs
 node scripts/verify-grading.mjs
+# 真实本地语料六方向取题／点评（独立临时学习库）
+node scripts/verify-corpus-local.mjs
 # 独立临时数据的可视化 QA（固定协议数据，不是 AI 质量证明）
 node tests/browser-server.mjs
 ```
@@ -103,6 +122,9 @@ server/prompts.mjs    分任务提示与 JSON Schema
 server/ai.mjs         本地 Ollama / 在线兼容服务适配
 server/runtime.mjs    可选的本地运行时安装与模型下载
 server/service.mjs    学习流程与对象级请求锁
+server/corpus.mjs     本地语料匹配、方向／分区／全局家族去重
+corpus/               官方快照、编选、300 道任务及覆盖／署名报告
+scripts/*corpus*      采集、筛选和离线构建
 server/http.mjs       同源本地 API 与静态资源
 public/               三语言响应式界面及语音适配
 ```

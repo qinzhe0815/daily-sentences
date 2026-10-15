@@ -202,3 +202,118 @@ test("every new conversation offers diagnosis or skip for all directions, with o
   }
   setLanguage("zh");
 });
+
+test("corpus source is localized; attribution links appear only after reveal and never accept unsafe URLs", async () => {
+  const { questionSource } = await import("../public/views.js");
+  assert.equal(typeof questionSource, "function");
+  const q = {
+    metadata: { provider: "corpus" },
+    provenance: [
+      {
+        sentenceId: 123,
+        author: "<author>",
+        license: "CC BY 2.0 FR",
+        url: "javascript:alert(1)",
+        licenseUrl: "javascript:alert(2)",
+      },
+    ],
+  };
+  for (const lang of ["zh", "en", "fr"]) {
+    setLanguage(lang);
+    const hidden = questionSource(q, false);
+    assert.doesNotMatch(hidden, /sentences\/show|&lt;author&gt;/);
+    const shown = questionSource(q, true);
+    assert.match(shown, /https:\/\/tatoeba.org\/en\/sentences\/show\/123/);
+    assert.match(shown, /&lt;author&gt;/);
+    assert.doesNotMatch(shown, /javascript:/);
+  }
+  setLanguage("zh");
+  assert.match(questionSource(q, false), /本地语料/);
+  assert.match(questionSource({ metadata: { provider: "local" } }, true), /AI/);
+});
+
+test("completed diagnostic results render both sentence attributions", () => {
+  const state = initialState();
+  const config = {
+    source: "zh",
+    target: "en",
+    role: "daily",
+    level: 2,
+    mode: "fixed",
+    scene: "",
+  };
+  state.conversations.push({
+    id: "c",
+    title: "",
+    config,
+    currentQuestionId: null,
+    activeDiagnosticId: "d",
+    window: [],
+    adjustments: [],
+    generationStatus: "completed",
+  });
+  state.diagnostics.push({
+    id: "d",
+    status: "completed",
+    config,
+    questionIds: ["q"],
+    result: { level: 2, reason: "练习估计" },
+  });
+  state.questions.push({
+    id: "q",
+    conversationId: "c",
+    diagnosticId: "d",
+    source: "测试句子。",
+    context: "",
+    snapshot: config,
+    knowledge: [],
+    metadata: { provider: "corpus" },
+    provenance: [
+      { sentenceId: 123, author: "SOURCE-AUTHOR", license: "CC BY 2.0 FR" },
+      { sentenceId: 456, author: "TARGET-AUTHOR", license: "CC BY 2.0 FR" },
+    ],
+    attempts: [],
+    followups: [],
+    drafts: { answer: "", followup: "" },
+  });
+  const html = shell({
+    state,
+    ui: { page: "practice", cid: "c", composerMode: {}, relatedAttempt: {} },
+    ai: { provider: "local" },
+    speech: {},
+    draft: () => "",
+  });
+  assert.match(html, /SOURCE-AUTHOR/);
+  assert.match(html, /TARGET-AUTHOR/);
+  assert.match(html, /sentences\/show\/456/);
+});
+
+test("source badge distinguishes recorded human acceptance from pending AI curation", async () => {
+  const { questionSource } = await import("../public/views.js");
+  setLanguage("zh");
+  assert.match(
+    questionSource(
+      { metadata: { provider: "corpus", reviewStatus: "human-reviewed" } },
+      false,
+    ),
+    /独立人工审核通过/,
+  );
+  assert.match(
+    questionSource(
+      { metadata: { provider: "corpus", reviewStatus: "ai-reviewed" } },
+      false,
+    ),
+    /独立人工审核待完成/,
+  );
+});
+
+test("user acceptance badge states its basis instead of claiming independent review", async () => {
+  const { questionSource } = await import("../public/views.js");
+  setLanguage("zh");
+  const html = questionSource(
+    { metadata: { provider: "corpus", reviewStatus: "user-accepted" } },
+    false,
+  );
+  assert.match(html, /按用户要求视为人工检查通过/);
+  assert.doesNotMatch(html, /独立人工审核通过/);
+});

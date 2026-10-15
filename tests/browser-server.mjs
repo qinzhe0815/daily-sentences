@@ -74,7 +74,7 @@ const ai = {
     };
   },
 };
-const service = new Service(store, ai);
+const service = new Service(store, ai, { corpus: null });
 const a = await service.createConversation({
   source: "zh",
   target: "en",

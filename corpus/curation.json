@@ -1,0 +1,4847 @@
+{
+  "version": "2026.10.14",
+  "annotationLicense": "CC0-1.0",
+  "reviewPolicy": "AI editorial review; independent human review and learner calibration pending",
+  "entries": [
+    {
+      "sourceId": 1277,
+      "translationId": 2,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：义务与就寝；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：义务与就寝；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "义务与就寝",
+        "en": "Obligation and bedtime",
+        "fr": "Obligation et coucher"
+      },
+      "requiredMeaning": [
+        "The speaker needs to go to sleep now."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      },
+      "familyHint": "bedtime-obligation"
+    },
+    {
+      "sourceId": 1308,
+      "translationId": 29,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：表达想念；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：表达想念；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "表达想念",
+        "en": "Expressing absence",
+        "fr": "Exprimer le manque"
+      },
+      "requiredMeaning": [
+        "The speaker misses the addressee."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1312,
+      "translationId": 33,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：即将离开；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：即将离开；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "即将离开",
+        "en": "Immediate intention",
+        "fr": "Départ imminent"
+      },
+      "requiredMeaning": [
+        "The speaker is about to leave."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1326,
+      "translationId": 43,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：确认疑问；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：确认疑问；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "确认疑问",
+        "en": "Asking for confirmation",
+        "fr": "Demander confirmation"
+      },
+      "requiredMeaning": [
+        "Ask whether the addressee is certain."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1385,
+      "translationId": 1415838,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：简单否定；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：简单否定；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "简单否定",
+        "en": "Simple negation",
+        "fr": "Négation simple"
+      },
+      "requiredMeaning": [
+        "The matter is not important."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14061590,
+      "translationId": 14061589,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：位置疑问；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：位置疑问；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "位置疑问",
+        "en": "Asking location",
+        "fr": "Demander le lieu"
+      },
+      "requiredMeaning": [
+        "Ask where the hangers are."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14061587,
+      "translationId": 14061585,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：能力疑问；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：能力疑问；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "能力疑问",
+        "en": "Asking about ability",
+        "fr": "Question sur la capacité"
+      },
+      "requiredMeaning": [
+        "Ask whether the addressee can write poems."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14033464,
+      "translationId": 14033463,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：季节变化；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：季节变化；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "季节变化",
+        "en": "Seasonal change",
+        "fr": "Changement de saison"
+      },
+      "requiredMeaning": [
+        "Autumn has begun."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14029047,
+      "translationId": 9054579,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：追加请求；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：追加请求；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "追加请求",
+        "en": "Requesting an extra item",
+        "fr": "Demander un objet supplémentaire"
+      },
+      "requiredMeaning": [
+        "Request one more chair."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14061594,
+      "translationId": 14061592,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：乐器与能力；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：乐器与能力；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "乐器与能力",
+        "en": "Musical ability",
+        "fr": "Capacité musicale"
+      },
+      "requiredMeaning": [
+        "Ask whether the addressee can play the harmonica."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1291,
+      "translationId": 16,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：近况疑问；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：近况疑问；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "近况疑问",
+        "en": "Recency",
+        "fr": "Caractère récent"
+      },
+      "requiredMeaning": [
+        "Ask whether the picture was taken recently."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1373,
+      "translationId": 57,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：过去时与时长；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：过去时与时长；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "过去时与时长",
+        "en": "Past duration",
+        "fr": "Durée passée"
+      },
+      "requiredMeaning": [
+        "Ask how long the addressee stayed."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1398,
+      "translationId": 501377,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：可能与将来；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：可能与将来；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "可能与将来",
+        "en": "Future possibility",
+        "fr": "Possibilité future"
+      },
+      "requiredMeaning": [
+        "Freezing is possible next week, not certain."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1403,
+      "translationId": 501395,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：表达感谢；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：表达感谢；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "表达感谢",
+        "en": "Expressing thanks",
+        "fr": "Remercier"
+      },
+      "requiredMeaning": [
+        "Thank the addressee for the explanation."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1438,
+      "translationId": 332935,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：等待与否定；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：等待与否定；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "等待与否定",
+        "en": "Unwillingness to wait",
+        "fr": "Refus d'attendre"
+      },
+      "requiredMeaning": [
+        "The speaker does not want to wait that long."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1462,
+      "translationId": 335027,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：程度否定；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：程度否定；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "程度否定",
+        "en": "Qualified negation",
+        "fr": "Négation nuancée"
+      },
+      "requiredMeaning": [
+        "The speaker's mother does not speak English very well, not necessarily not at all."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14067715,
+      "translationId": 2086657,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：未来与期限；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：未来与期限；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "未来与期限",
+        "en": "Future deadline",
+        "fr": "Échéance future"
+      },
+      "requiredMeaning": [
+        "The speaker will return the addressee's CD in one week."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14067728,
+      "translationId": 14067727,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：工具与动作；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：工具与动作；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "food",
+      "childSafe": true,
+      "focus": {
+        "zh": "工具与动作",
+        "en": "Tool and action",
+        "fr": "Outil et action"
+      },
+      "requiredMeaning": [
+        "The speaker can whip eggs using chopsticks."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14038510,
+      "translationId": 14038508,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：容纳与否定；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：容纳与否定；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "food",
+      "childSafe": true,
+      "focus": {
+        "zh": "容纳与否定",
+        "en": "Capacity and negation",
+        "fr": "Capacité et négation"
+      },
+      "requiredMeaning": [
+        "The bag is too small to hold an A4 notebook."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14042166,
+      "translationId": 14042780,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：委婉疑问；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：委婉疑问；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "委婉疑问",
+        "en": "Tentative question",
+        "fr": "Question atténuée"
+      },
+      "requiredMeaning": [
+        "Ask whether the room is a little too warm."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14028320,
+      "translationId": 14028319,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：承诺帮助；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：承诺帮助；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "承诺帮助",
+        "en": "Promising help",
+        "fr": "Promettre de l'aide"
+      },
+      "requiredMeaning": [
+        "The speakers will make their best effort to help the addressee."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14022947,
+      "translationId": 8591228,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：动作先后；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：动作先后；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "动作先后",
+        "en": "Sequence of actions",
+        "fr": "Ordre des actions"
+      },
+      "requiredMeaning": [
+        "The speaker drank soda after showering."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14002102,
+      "translationId": 14002101,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：转述他人判断并与真实籍贯对照，暂定 L3。",
+        "反向主动表达：口音印象与实际籍贯的转折，暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "转述与口音对照",
+        "en": "Reported impression and contrast",
+        "fr": "Impression rapportée et contraste"
+      },
+      "requiredMeaning": [
+        "Everyone says the speaker sounds northern, but the speaker actually comes from the south."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1353,
+      "translationId": 501331,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：可能性与最坏情况；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：可能性与最坏情况；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "可能性与最坏情况",
+        "en": "Worst-case possibility",
+        "fr": "Pire éventualité"
+      },
+      "requiredMeaning": [
+        "Suggest considering the worst possible outcome."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1366,
+      "translationId": 501339,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：目的与必要性；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：目的与必要性；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "目的与必要性",
+        "en": "Purpose and necessity",
+        "fr": "But et nécessité"
+      },
+      "requiredMeaning": [
+        "Achieving that requires taking risks."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1399,
+      "translationId": 454663,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：让步与情绪延续；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：让步与情绪延续；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "让步与情绪延续",
+        "en": "Concession and continuing emotion",
+        "fr": "Concession et émotion persistante"
+      },
+      "requiredMeaning": [
+        "He apologized, but the speaker remains very angry."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1464,
+      "translationId": 334925,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：委婉询问与过去视角；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：委婉询问与过去视角；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "委婉询问与过去视角",
+        "en": "Indirect question",
+        "fr": "Question indirecte"
+      },
+      "requiredMeaning": [
+        "The speaker wondered whether the addressee would appear today."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1472,
+      "translationId": 334917,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：无论与评价；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：无论与评价；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "无论与评价",
+        "en": "Unconditional concession",
+        "fr": "Concession générale"
+      },
+      "requiredMeaning": [
+        "Whatever the speaker does, she says it could be better."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1475,
+      "translationId": 334914,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：关系从句与意愿；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：关系从句与意愿；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "关系从句与意愿",
+        "en": "Relative clause and willingness",
+        "fr": "Relative et volonté"
+      },
+      "requiredMeaning": [
+        "The speaker has no one willing to travel with them."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1524,
+      "translationId": 334463,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：决定权与是否；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：决定权与是否；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "决定权与是否",
+        "en": "Responsibility for a choice",
+        "fr": "Responsabilité du choix"
+      },
+      "requiredMeaning": [
+        "The addressee decides whether the group goes there."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1617,
+      "translationId": 334142,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：耗时表达；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：耗时表达；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "耗时表达",
+        "en": "Time taken",
+        "fr": "Temps nécessaire"
+      },
+      "requiredMeaning": [
+        "Translating a few pages of English took the speaker more than two hours."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1863,
+      "translationId": 502840,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：计划与转折；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：计划与转折；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "计划与转折",
+        "en": "Interrupted plan",
+        "fr": "Projet contrarié"
+      },
+      "requiredMeaning": [
+        "The speaker planned a beach visit today, but rain began."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14009886,
+      "translationId": 13998043,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：限定与非绝对判断；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：限定与非绝对判断；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "ideas",
+      "childSafe": true,
+      "focus": {
+        "zh": "限定与非绝对判断",
+        "en": "Qualified judgment",
+        "fr": "Jugement nuancé"
+      },
+      "requiredMeaning": [
+        "Such a question has no absolutely right or wrong answer."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13902344,
+      "translationId": 13902321,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：抽象体系与频率；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：抽象体系与频率；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "ideas",
+      "childSafe": true,
+      "focus": {
+        "zh": "抽象体系与频率",
+        "en": "Abstract systems and frequency",
+        "fr": "Système abstrait et fréquence"
+      },
+      "requiredMeaning": [
+        "A large sophisticated system is usually based on a few simple rules."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1345,
+      "translationId": 501323,
+      "levels": [
+        4,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：持续思考与假设；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：持续思考与假设；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "持续思考与假设",
+        "en": "Persistent hypothetical thought",
+        "fr": "Réflexion hypothétique durable"
+      },
+      "requiredMeaning": [
+        "The speaker has long wondered what having siblings would be like."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1496,
+      "translationId": 334703,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：条件式与解释成本；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：条件式与解释成本；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "条件式与解释成本",
+        "en": "Hypothetical cost of explanation",
+        "fr": "Coût hypothétique d'une explication"
+      },
+      "requiredMeaning": [
+        "Explaining why it will not work would take the speaker too much time."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1589,
+      "translationId": 334177,
+      "levels": [
+        4,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：维持交谈与限定；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：维持交谈与限定；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "维持交谈与限定",
+        "en": "Restrictive relative clause",
+        "fr": "Relative restrictive"
+      },
+      "requiredMeaning": [
+        "Keeping a conversation going is difficult with someone who only says yes or no."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14059843,
+      "translationId": 14059839,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：合同正式用语；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：合同正式用语；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "work",
+      "childSafe": false,
+      "focus": {
+        "zh": "合同正式用语",
+        "en": "Formal contract wording",
+        "fr": "Formulation contractuelle"
+      },
+      "requiredMeaning": [
+        "The contract is made in two copies."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14028764,
+      "translationId": 14028761,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：概括范围与禁止；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：概括范围与禁止；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "概括范围与禁止",
+        "en": "Scope of generalization",
+        "fr": "Portée d'une généralisation"
+      },
+      "requiredMeaning": [
+        "Do not attribute an individual's behavior to a whole group."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14079409,
+      "translationId": 14079406,
+      "levels": [
+        4,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：材质与结果状态；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：材质与结果状态；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "材质与结果状态",
+        "en": "Material and resulting state",
+        "fr": "Matière et état résultant"
+      },
+      "requiredMeaning": [
+        "The fountain pen's plating has worn off."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14008284,
+      "translationId": 14008279,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：习惯与习语转折；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：习惯与习语转折；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "习惯与习语转折",
+        "en": "Habit contrasted with an idiom",
+        "fr": "Habitude et tournure idiomatique"
+      },
+      "requiredMeaning": [
+        "Despite habitual handwritten notes, the speaker still forgets characters when beginning to write."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13998090,
+      "translationId": 13998155,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：定义与关系从句对照；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：定义与关系从句对照；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "定义与关系从句对照",
+        "en": "Definition and relative contrast",
+        "fr": "Définition et contraste relatif"
+      },
+      "requiredMeaning": [
+        "Deciduous trees lose leaves in autumn, unlike evergreens that keep them year round."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14028314,
+      "translationId": 14028313,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：长期过程与突破；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：长期过程与突破；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "长期过程与突破",
+        "en": "Long process and breakthrough",
+        "fr": "Long effort et réussite"
+      },
+      "requiredMeaning": [
+        "After years of hard training she made a breakthrough and won the championship."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13970777,
+      "translationId": 13970770,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：让步与被动限制；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：让步与被动限制；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "让步与被动限制",
+        "en": "Concession and passive restriction",
+        "fr": "Concession et restriction passive"
+      },
+      "requiredMeaning": [
+        "Platforms do not explicitly ban this content, but restrict its traffic."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14064752,
+      "translationId": 14064748,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：复合假设与信任判断；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：复合假设与信任判断；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "复合假设与信任判断",
+        "en": "Layered hypothetical conditions",
+        "fr": "Hypothèses imbriquées"
+      },
+      "requiredMeaning": [
+        "Ask whether the addressee would trust a system where everyone deposits money and transactions only change numbers in banks' paper ledgers."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13896527,
+      "translationId": 13896524,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：量词与逻辑否定；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：量词与逻辑否定；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "量词与逻辑否定",
+        "en": "Quantification and logical negation",
+        "fr": "Quantification et négation logique"
+      },
+      "requiredMeaning": [
+        "Preserve both conditional claims and the distinction between both true and false versus solely true or solely false."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13979533,
+      "translationId": 13979532,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：情感倾诉与程度立场；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：情感倾诉与程度立场；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "情感倾诉与程度立场",
+        "en": "Emotional disclosure and stance",
+        "fr": "Confidence et prise de position"
+      },
+      "requiredMeaning": [
+        "Having someone to whom one can vent freely and continuously is exceptionally rare."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14037614,
+      "translationId": 14037609,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：经验与观察的让步、汉语俗语的语用对应，暂定 L5。",
+        "反向主动表达：将反问俗语转为自然目标语，保留隐含让步，暂定 L5。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "经历与观察经验的习语对应",
+        "en": "Experience versus observation in an idiom",
+        "fr": "Expérience et observation dans un idiome"
+      },
+      "requiredMeaning": [
+        "Contrast lack of direct experience with knowledge gained by observation; the Chinese proverb is figurative. Accept natural paraphrases without literal pork or pig wording. The Chinese source does not specify a grammatical subject, so do not require a particular pronoun in its translation."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 40426,
+      "translationId": 2318421,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：习语与当面沟通；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：习语与当面沟通；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "习语与当面沟通",
+        "en": "Idioms and direct confrontation",
+        "fr": "Idiomes et discussion directe"
+      },
+      "requiredMeaning": [
+        "If you have a grievance, address the person directly instead of talking behind their back."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14063377,
+      "translationId": 14063376,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：习语与质疑语气；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：习语与质疑语气；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "习语与质疑语气",
+        "en": "Idiomatic challenge",
+        "fr": "Question idiomatique de défi"
+      },
+      "requiredMeaning": [
+        "Ask how the addressee will use words to explain their way out of the situation, not physically leave."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3100,
+      "translationId": 10,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：简单否定；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：简单否定；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "简单否定",
+        "en": "Simple negation",
+        "fr": "Négation simple"
+      },
+      "requiredMeaning": [
+        "The speaker does not know."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3124,
+      "translationId": 29,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：表达想念；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：表达想念；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "表达想念",
+        "en": "Expressing absence",
+        "fr": "Exprimer le manque"
+      },
+      "requiredMeaning": [
+        "The speaker misses the addressee."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3142,
+      "translationId": 43,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：确认疑问；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：确认疑问；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "确认疑问",
+        "en": "Asking confirmation",
+        "fr": "Demander confirmation"
+      },
+      "requiredMeaning": [
+        "Ask whether the addressee is certain."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3207,
+      "translationId": 501367,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：鼓励与能力；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：鼓励与能力；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "鼓励与能力",
+        "en": "Encouragement",
+        "fr": "Encouragement"
+      },
+      "requiredMeaning": [
+        "Tell the addressee they can succeed in doing it."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3211,
+      "translationId": 501373,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：义务与就寝；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：义务与就寝；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "义务与就寝",
+        "en": "Bedtime obligation",
+        "fr": "Obligation de se coucher"
+      },
+      "requiredMeaning": [
+        "The speaker needs to go to bed."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      },
+      "familyHint": "bedtime-obligation"
+    },
+    {
+      "sourceId": 3219,
+      "translationId": 501395,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：表达感谢；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：表达感谢；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "表达感谢",
+        "en": "Expressing thanks",
+        "fr": "Remercier"
+      },
+      "requiredMeaning": [
+        "Thank the addressee for the explanation."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13970267,
+      "translationId": 13970272,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：教学与语种；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：教学与语种；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "教学与语种",
+        "en": "Teaching a language",
+        "fr": "Enseigner une langue"
+      },
+      "requiredMeaning": [
+        "The speaker teaches German."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13969671,
+      "translationId": 2027964,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：语言能力疑问；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：语言能力疑问；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "语言能力疑问",
+        "en": "Language ability",
+        "fr": "Capacité linguistique"
+      },
+      "requiredMeaning": [
+        "Ask whether the addressee speaks Chinese."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13959997,
+      "translationId": 9992088,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：学习动作；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：学习动作；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "学习动作",
+        "en": "Learning activity",
+        "fr": "Activité d'apprentissage"
+      },
+      "requiredMeaning": [
+        "He is learning German."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13187570,
+      "translationId": 13138445,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：表达来源；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：表达来源；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "表达来源",
+        "en": "Place of origin",
+        "fr": "Origine géographique"
+      },
+      "requiredMeaning": [
+        "The speaker comes from Beijing."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3106,
+      "translationId": 16,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：近况疑问；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：近况疑问；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "近况疑问",
+        "en": "Recency",
+        "fr": "Caractère récent"
+      },
+      "requiredMeaning": [
+        "Ask whether the photo is recent."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3170,
+      "translationId": 501332,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：数量疑问；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：数量疑问；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "数量疑问",
+        "en": "Asking quantity",
+        "fr": "Demander une quantité"
+      },
+      "requiredMeaning": [
+        "Ask how many close friends the addressee has."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3177,
+      "translationId": 501336,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：过去动作与状态；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：过去动作与状态；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "过去动作与状态",
+        "en": "Past action and state",
+        "fr": "Action et état passés"
+      },
+      "requiredMeaning": [
+        "The speaker was sad when waking up."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3197,
+      "translationId": 501352,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：拥有与否定；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：拥有与否定；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "拥有与否定",
+        "en": "Possession and negation",
+        "fr": "Possession et négation"
+      },
+      "requiredMeaning": [
+        "The speaker has no account on these forums."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3221,
+      "translationId": 501399,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：过去事件疑问；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：过去事件疑问；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "过去事件疑问",
+        "en": "Asking about an event",
+        "fr": "Question sur un événement"
+      },
+      "requiredMeaning": [
+        "Ask what happened."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3230,
+      "translationId": 345992,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：数量与关系从句；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：数量与关系从句；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "数量与关系从句",
+        "en": "Quantity and relative clause",
+        "fr": "Quantité et relative"
+      },
+      "requiredMeaning": [
+        "There are many words the speaker does not understand."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 12891664,
+      "translationId": 813315,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：口味偏好；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：口味偏好；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "food",
+      "childSafe": true,
+      "focus": {
+        "zh": "口味偏好",
+        "en": "Food preference",
+        "fr": "Préférence alimentaire"
+      },
+      "requiredMeaning": [
+        "The speaker does not like spicy food."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 12652561,
+      "translationId": 12618525,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：习惯与约数；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：习惯与约数；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "习惯与约数",
+        "en": "Habit and approximate time",
+        "fr": "Habitude et heure approximative"
+      },
+      "requiredMeaning": [
+        "The speaker usually gets up around seven."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13247597,
+      "translationId": 4900963,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：礼貌询问姓名；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：礼貌询问姓名；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "礼貌询问姓名",
+        "en": "Polite introduction",
+        "fr": "Présentation polie"
+      },
+      "requiredMeaning": [
+        "Politely ask the addressee's name."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13338212,
+      "translationId": 332986,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：位置与地形；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：位置与地形；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "位置与地形",
+        "en": "Location and terrain",
+        "fr": "Lieu et relief"
+      },
+      "requiredMeaning": [
+        "The church is at the foot of the mountain."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 12441691,
+      "translationId": 12687085,
+      "levels": [
+        2,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：未来时间从句；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：未来时间从句；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "未来时间从句",
+        "en": "Future time clause",
+        "fr": "Subordonnée temporelle future"
+      },
+      "requiredMeaning": [
+        "Ask what the addressee wants to do when grown up."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 9550303,
+      "translationId": 11264798,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：问路；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：问路；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "问路",
+        "en": "Asking directions",
+        "fr": "Demander son chemin"
+      },
+      "requiredMeaning": [
+        "Ask how to get to the beach from here."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3120,
+      "translationId": 27,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：将来与目的否定；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：将来与目的否定；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "将来与目的否定",
+        "en": "Future and negative purpose",
+        "fr": "Futur et but négatif"
+      },
+      "requiredMeaning": [
+        "The speaker will do their best not to disturb revision."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3182,
+      "translationId": 501339,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：目的与必要性；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：目的与必要性；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "目的与必要性",
+        "en": "Purpose and necessity",
+        "fr": "But et nécessité"
+      },
+      "requiredMeaning": [
+        "Doing that requires taking risks."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3214,
+      "translationId": 501377,
+      "levels": [
+        3,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：可能性与虚拟式；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：可能性与虚拟式；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "可能性与虚拟式",
+        "en": "Possibility and subjunctive",
+        "fr": "Possibilité et subjonctif"
+      },
+      "requiredMeaning": [
+        "It may freeze next week."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3215,
+      "translationId": 454663,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：让步与情绪延续；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：让步与情绪延续；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "让步与情绪延续",
+        "en": "Concession",
+        "fr": "Concession"
+      },
+      "requiredMeaning": [
+        "He apologized, but the speaker is still angry."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3246,
+      "translationId": 335063,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：替代行动与目的；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：替代行动与目的；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "替代行动与目的",
+        "en": "Alternative action",
+        "fr": "Action de remplacement"
+      },
+      "requiredMeaning": [
+        "The speaker will play Sudoku instead of continuing to disturb the addressee."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3340,
+      "translationId": 334463,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：决定权与是否；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：决定权与是否；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "决定权与是否",
+        "en": "Choice and responsibility",
+        "fr": "Choix et responsabilité"
+      },
+      "requiredMeaning": [
+        "The addressee decides whether the group goes there."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3361,
+      "translationId": 334444,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：时间起点与持续；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：时间起点与持续；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "时间起点与持续",
+        "en": "Starting point and duration",
+        "fr": "Point de départ et durée"
+      },
+      "requiredMeaning": [
+        "The speaker came to Tokyo three years ago and has lived there ever since."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 10593203,
+      "translationId": 10593201,
+      "levels": [
+        3,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：原因与过去否定；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：原因与过去否定；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "原因与过去否定",
+        "en": "Cause and past negation",
+        "fr": "Cause et négation passée"
+      },
+      "requiredMeaning": [
+        "He was sick yesterday, so did not come to school."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 10593182,
+      "translationId": 10593181,
+      "levels": [
+        3,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：原因与能力否定；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：原因与能力否定；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "原因与能力否定",
+        "en": "Cause and inability",
+        "fr": "Cause et impossibilité"
+      },
+      "requiredMeaning": [
+        "Rain today prevents the speaker from cycling."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 8806791,
+      "translationId": 9963090,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：并列地点与否定；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：并列地点与否定；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "并列地点与否定",
+        "en": "Coordinated places and negation",
+        "fr": "Lieux coordonnés et négation"
+      },
+      "requiredMeaning": [
+        "Neither local bookstores nor libraries have foreign-language books."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 8447860,
+      "translationId": 5550273,
+      "levels": [
+        3,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：认知限定与被动；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：认知限定与被动；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "认知限定与被动",
+        "en": "Epistemic limit and passive",
+        "fr": "Réserve et passif"
+      },
+      "requiredMeaning": [
+        "To the speaker's knowledge, the book has never been translated into Japanese."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 8387634,
+      "translationId": 2029317,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：让步与全称否定；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：让步与全称否定；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "让步与全称否定",
+        "en": "Concession and total negation",
+        "fr": "Concession et négation totale"
+      },
+      "requiredMeaning": [
+        "Three rooms are empty, yet none can be used by the speakers."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3161,
+      "translationId": 501323,
+      "levels": [
+        4,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：持续思考与假设；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：持续思考与假设；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "持续思考与假设",
+        "en": "Persistent hypothetical thought",
+        "fr": "Réflexion hypothétique durable"
+      },
+      "requiredMeaning": [
+        "The speaker has always wondered what having siblings would feel like."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3311,
+      "translationId": 334703,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：条件式与解释成本；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：条件式与解释成本；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "条件式与解释成本",
+        "en": "Hypothetical explanation",
+        "fr": "Explication hypothétique"
+      },
+      "requiredMeaning": [
+        "Explaining why it will not work would take too much time."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3780,
+      "translationId": 502975,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：抽象动机、原因否定范围及对照，暂定 L4。",
+        "反向主动表达：谨慎与贪婪的抽象动机对照、非此而彼结构，暂定 L4。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "否定原因与动机对照",
+        "en": "Contrasting motives with negative scope",
+        "fr": "Contraste des motifs et portée de la négation"
+      },
+      "requiredMeaning": [
+        "The miser accumulates money out of greed, not prudence; preserve which motive is rejected and which is asserted."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 12408179,
+      "translationId": 7768305,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：最高级与虚拟式；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：最高级与虚拟式；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "最高级与虚拟式",
+        "en": "Superlative and subjunctive",
+        "fr": "Superlatif et subjonctif"
+      },
+      "requiredMeaning": [
+        "This is the most interesting novel the speaker has ever read."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 10629655,
+      "translationId": 332982,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：过去比较与赘词否定；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：过去比较与赘词否定；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "过去比较与赘词否定",
+        "en": "Past comparison",
+        "fr": "Comparaison passée et ne explétif"
+      },
+      "requiredMeaning": [
+        "The younger brother is not as tall as the speaker was two years ago."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3784,
+      "translationId": 502985,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：推断情态、反复动作与多层修饰，暂定 L4。",
+        "反向主动表达：推断而非义务，反复动作与修饰关系，暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "推断与重复动作",
+        "en": "Inference and repeated action",
+        "fr": "Déduction et action répétée"
+      },
+      "requiredMeaning": [
+        "The teachers must be tired of repeatedly correcting the same errors in students papers; must expresses inference, not obligation."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1402569,
+      "translationId": 1402568,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：让步与反复解释；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：让步与反复解释；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "让步与反复解释",
+        "en": "Concession and repetition",
+        "fr": "Concession et répétition"
+      },
+      "requiredMeaning": [
+        "Despite repeated explanations of the poem's meaning, the speaker still does not understand."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1251203,
+      "translationId": 1776810,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：分类与专业概念；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：分类与专业概念；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "分类与专业概念",
+        "en": "Technical classification",
+        "fr": "Classification technique"
+      },
+      "requiredMeaning": [
+        "Data compression algorithms divide into lossy and lossless categories."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 129921,
+      "translationId": 791471,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：过去决定与双重理由；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：过去决定与双重理由；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "过去决定与双重理由",
+        "en": "Decision with two reasons",
+        "fr": "Décision et deux motifs"
+      },
+      "requiredMeaning": [
+        "He chose not to buy the house because it was too expensive and too far from his office."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1463294,
+      "translationId": 743112,
+      "levels": [
+        4,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：让步与非对应变化；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：让步与非对应变化；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "让步与非对应变化",
+        "en": "Concession and mismatch",
+        "fr": "Concession et absence de corrélation"
+      },
+      "requiredMeaning": [
+        "Most are wealthier than parents or grandparents, but happiness has not changed correspondingly."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3754,
+      "translationId": 502908,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：反讽、矛盾态度与认真对待的语用区分，暂定 L5。",
+        "反向主动表达：多重语用误读及被动修饰关系，暂定 L5。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "反讽与模糊立场的误读",
+        "en": "Misreading sarcasm and ambivalence",
+        "fr": "Mauvaise interprétation du sarcasme et de l’ambivalence"
+      },
+      "requiredMeaning": [
+        "Spensers sarcastic and joking remarks are often misread as signs of ambivalence and taken too seriously. Preserve both recurring misinterpretations; proper-name transliteration is acceptable."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3564,
+      "translationId": 501713,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：限制与对称反转；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：限制与对称反转；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "限制与对称反转",
+        "en": "Restriction and symmetrical reversal",
+        "fr": "Restriction et inversion symétrique"
+      },
+      "requiredMeaning": [
+        "We can know but not change the past; change but not know the future."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 3622,
+      "translationId": 502741,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：愿望与自我矛盾；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：愿望与自我矛盾；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "愿望与自我矛盾",
+        "en": "Desire and contradiction",
+        "fr": "Désir et contradiction"
+      },
+      "requiredMeaning": [
+        "People want children to decide independently but also want those decisions to suit them."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 775306,
+      "translationId": 811391,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：习语与条件论证；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：习语与条件论证；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "study",
+      "childSafe": false,
+      "focus": {
+        "zh": "习语与条件论证",
+        "en": "Idiomatic conditional argument",
+        "fr": "Argument conditionnel idiomatique"
+      },
+      "requiredMeaning": [
+        "The claim is that grammar drills and rote vocabulary alone do not teach speaking; the idiom means being mistaken, not an actual eye injury."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 9026481,
+      "translationId": 8640058,
+      "levels": [
+        5,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：双向乡愁与转折；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：双向乡愁与转折；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "双向乡愁与转折",
+        "en": "Contrasting homesickness",
+        "fr": "Nostalgie et contraste"
+      },
+      "requiredMeaning": [
+        "Away from the ancestral country the speaker misses it; at home the speaker longs to travel again."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 2116812,
+      "translationId": 9958567,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：转述建议、习语与言行落差的让步，暂定 L5。",
+        "反向主动表达：保留转述立场与说易行难的语用落差，暂定 L5。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "转述立场与习语让步",
+        "en": "Reported stance and idiomatic concession",
+        "fr": "Opinion rapportée et concession idiomatique"
+      },
+      "requiredMeaning": [
+        "People say not to take rumors seriously, but this advice is easier to give than to follow."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1276,
+      "translationId": 3091,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：共同提议；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：共同提议；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "共同提议",
+        "en": "Joint suggestion",
+        "fr": "Suggestion commune"
+      },
+      "requiredMeaning": [
+        "Suggest trying something together."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1277,
+      "translationId": 373908,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：义务与就寝；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：义务与就寝；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "义务与就寝",
+        "en": "Bedtime obligation",
+        "fr": "Obligation de dormir"
+      },
+      "requiredMeaning": [
+        "The speaker has to go to sleep."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      },
+      "familyHint": "bedtime-obligation"
+    },
+    {
+      "sourceId": 1284,
+      "translationId": 3099,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：未来返回；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：未来返回；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "未来返回",
+        "en": "Returning soon",
+        "fr": "Retour prochain"
+      },
+      "requiredMeaning": [
+        "The speaker will return soon."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1291,
+      "translationId": 3106,
+      "levels": [
+        1,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：近况疑问；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：近况疑问；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "近况疑问",
+        "en": "Recency",
+        "fr": "Caractère récent"
+      },
+      "requiredMeaning": [
+        "Ask whether the picture is recent."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1298,
+      "translationId": 3114,
+      "levels": [
+        1,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：未来价格；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：未来价格；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "food",
+      "childSafe": true,
+      "focus": {
+        "zh": "未来价格",
+        "en": "Future cost",
+        "fr": "Prix futur"
+      },
+      "requiredMeaning": [
+        "The cost will be thirty euros."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1308,
+      "translationId": 3124,
+      "levels": [
+        2,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：表达想念；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：表达想念；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "表达想念",
+        "en": "Expressing absence",
+        "fr": "Exprimer le manque"
+      },
+      "requiredMeaning": [
+        "The speaker misses the addressee."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1311,
+      "translationId": 3127,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：提出建议；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：提出建议；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "提出建议",
+        "en": "Giving advice",
+        "fr": "Donner un conseil"
+      },
+      "requiredMeaning": [
+        "Advise the addressee to sleep."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1326,
+      "translationId": 3142,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：确认疑问；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：确认疑问；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "确认疑问",
+        "en": "Asking confirmation",
+        "fr": "Demander confirmation"
+      },
+      "requiredMeaning": [
+        "Ask whether the addressee is sure."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1328,
+      "translationId": 3144,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：存在句；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：存在句；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "存在句",
+        "en": "Existence",
+        "fr": "Présenter une existence"
+      },
+      "requiredMeaning": [
+        "Point out a butterfly."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14071990,
+      "translationId": 14071988,
+      "levels": [
+        1,
+        1
+      ],
+      "levelReasons": [
+        "正向主动表达：交通习惯；结合目标语组织、句法与语用暂定 L1。",
+        "反向主动表达：交通习惯；结合目标语组织、句法与语用暂定 L1。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "交通习惯",
+        "en": "Transport habits",
+        "fr": "Habitudes de transport"
+      },
+      "requiredMeaning": [
+        "Ask whether the addressee takes the bus."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1295,
+      "translationId": 376665,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：比较表达；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：比较表达；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "比较表达",
+        "en": "Comparison",
+        "fr": "Comparaison"
+      },
+      "requiredMeaning": [
+        "The addressee is in better physical shape than the speaker."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1309,
+      "translationId": 3125,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：将来时间从句；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：将来时间从句；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "将来时间从句",
+        "en": "Future time clause",
+        "fr": "Subordonnée temporelle future"
+      },
+      "requiredMeaning": [
+        "The speaker will call them tomorrow upon returning."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1313,
+      "translationId": 3129,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：过去转述与追加；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：过去转述与追加；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "过去转述与追加",
+        "en": "Reported request",
+        "fr": "Demande rapportée"
+      },
+      "requiredMeaning": [
+        "The speaker told them to send another ticket."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1381,
+      "translationId": 3197,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：拥有与否定；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：拥有与否定；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "拥有与否定",
+        "en": "Possession and negation",
+        "fr": "Possession et négation"
+      },
+      "requiredMeaning": [
+        "The speaker has no account in these forums."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14079526,
+      "translationId": 14079527,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：酒店服务；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：酒店服务；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "酒店服务",
+        "en": "Hotel services",
+        "fr": "Services hôteliers"
+      },
+      "requiredMeaning": [
+        "The hotel offers a buffet breakfast."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14074813,
+      "translationId": 14074815,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：相对位置；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：相对位置；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "相对位置",
+        "en": "Relative position",
+        "fr": "Position relative"
+      },
+      "requiredMeaning": [
+        "The museum is opposite the cathedral."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14079537,
+      "translationId": 14079539,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：礼貌点餐；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：礼貌点餐；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "food",
+      "childSafe": true,
+      "focus": {
+        "zh": "礼貌点餐",
+        "en": "Polite food offer",
+        "fr": "Proposition polie"
+      },
+      "requiredMeaning": [
+        "Offer tomato salad to accompany the addressee's meat."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14076490,
+      "translationId": 14076491,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：过去动作与位置；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：过去动作与位置；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "过去动作与位置",
+        "en": "Past action and location",
+        "fr": "Action passée et lieu"
+      },
+      "requiredMeaning": [
+        "Ask whether the addressee put the book on the nightstand."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14076459,
+      "translationId": 14076460,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：义务与未来出差；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：义务与未来出差；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "义务与未来出差",
+        "en": "Obligation and business travel",
+        "fr": "Obligation et déplacement"
+      },
+      "requiredMeaning": [
+        "The speaker must go on a business trip to Spain next month."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14076438,
+      "translationId": 14076435,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：数量上限；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：数量上限；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "数量上限",
+        "en": "Maximum allowance",
+        "fr": "Limite maximale"
+      },
+      "requiredMeaning": [
+        "Ask the maximum permitted hand-luggage weight."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14074503,
+      "translationId": 14074502,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：祝愿与否定祈使；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：祝愿与否定祈使；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "祝愿与否定祈使",
+        "en": "Wish and negative imperative",
+        "fr": "Souhait et impératif négatif"
+      },
+      "requiredMeaning": [
+        "Wish a good holiday and remind the addressee to take many photos."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14074475,
+      "translationId": 14074476,
+      "levels": [
+        2,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：比较与转折；结合目标语组织、句法与语用暂定 L2。",
+        "反向主动表达：比较与转折；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "比较与转折",
+        "en": "Comparison and contrast",
+        "fr": "Comparaison et contraste"
+      },
+      "requiredMeaning": [
+        "An express train costs more but is faster."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1371,
+      "translationId": 3187,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：人物关系从句、转折与被动可能性，暂定 L3。",
+        "反向主动表达：人物特点与可改进性的转折及修饰，暂定 L3。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "个人特点与可改进性",
+        "en": "Personal flaws and possibility of improvement",
+        "fr": "Défauts et possibilité de correction"
+      },
+      "requiredMeaning": [
+        "The speaker admits having flaws but says those flaws can easily be corrected."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1345,
+      "translationId": 3161,
+      "levels": [
+        3,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：持续思考与假设；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：持续思考与假设；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "持续思考与假设",
+        "en": "Persistent hypothetical thought",
+        "fr": "Réflexion hypothétique durable"
+      },
+      "requiredMeaning": [
+        "The speaker has always wondered about having siblings."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1350,
+      "translationId": 3166,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：关系从句与委婉愿望；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：关系从句与委婉愿望；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "关系从句与委婉愿望",
+        "en": "Relative clause and polite wish",
+        "fr": "Relative et souhait atténué"
+      },
+      "requiredMeaning": [
+        "The speaker wants a substitute for the word in question."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1366,
+      "translationId": 3182,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：目的与必要性；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：目的与必要性；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "目的与必要性",
+        "en": "Purpose and necessity",
+        "fr": "But et nécessité"
+      },
+      "requiredMeaning": [
+        "Doing that requires taking risks."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1372,
+      "translationId": 3188,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：反复条件与程度；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：反复条件与程度；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "food",
+      "childSafe": true,
+      "focus": {
+        "zh": "反复条件与程度",
+        "en": "Recurring condition",
+        "fr": "Condition répétée"
+      },
+      "requiredMeaning": [
+        "Whenever the speaker finds something they like, it costs too much."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1360,
+      "translationId": 3176,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：过去习惯；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：过去习惯；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "过去习惯",
+        "en": "Past habit",
+        "fr": "Habitude passée"
+      },
+      "requiredMeaning": [
+        "In high school the speaker got up every morning at six."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1524,
+      "translationId": 3340,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：决定权与是否；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：决定权与是否；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "决定权与是否",
+        "en": "Choice and responsibility",
+        "fr": "Choix et responsabilité"
+      },
+      "requiredMeaning": [
+        "The addressee decides whether the speakers go there."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14079505,
+      "translationId": 14079506,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：愿望与必要限制；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：愿望与必要限制；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "food",
+      "childSafe": true,
+      "focus": {
+        "zh": "愿望与必要限制",
+        "en": "Desire and constraint",
+        "fr": "Envie et contrainte"
+      },
+      "requiredMeaning": [
+        "The speaker wants yogurt, which must be lactose-free."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14074533,
+      "translationId": 14074534,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：原因与代词；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：原因与代词；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "原因与代词",
+        "en": "Cause and pronoun",
+        "fr": "Cause et pronom"
+      },
+      "requiredMeaning": [
+        "Many learn Italian because they find it melodious."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14076420,
+      "translationId": 14076422,
+      "levels": [
+        3,
+        2
+      ],
+      "levelReasons": [
+        "正向主动表达：时间从句与祝愿；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：时间从句与祝愿；结合目标语组织、句法与语用暂定 L2。"
+      ],
+      "scene": "travel",
+      "childSafe": true,
+      "focus": {
+        "zh": "时间从句与祝愿",
+        "en": "Time clause and wish",
+        "fr": "Temporelle et souhait"
+      },
+      "requiredMeaning": [
+        "Wish a good flight and ask the addressee to call upon landing."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14066971,
+      "translationId": 14066972,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：询问与完成否定；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：询问与完成否定；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "询问与完成否定",
+        "en": "Question and incomplete action",
+        "fr": "Question et action non accomplie"
+      },
+      "requiredMeaning": [
+        "Ask whether to quit the program, warning that the file has not been saved."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 14074539,
+      "translationId": 14074540,
+      "levels": [
+        3,
+        3
+      ],
+      "levelReasons": [
+        "正向主动表达：评价与追加请求；结合目标语组织、句法与语用暂定 L3。",
+        "反向主动表达：评价与追加请求；结合目标语组织、句法与语用暂定 L3。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "评价与追加请求",
+        "en": "Evaluation and elaboration",
+        "fr": "Évaluation et développement"
+      },
+      "requiredMeaning": [
+        "Approve the idea enthusiastically and ask for more detail."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1319,
+      "translationId": 3135,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：反事实条件；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：反事实条件；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "反事实条件",
+        "en": "Counterfactual condition",
+        "fr": "Condition irréelle"
+      },
+      "requiredMeaning": [
+        "The speaker could trust anyone if the world were different from its present state."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1377,
+      "translationId": 3193,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：让步与立场保留；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：让步与立场保留；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "ideas",
+      "childSafe": false,
+      "focus": {
+        "zh": "让步与立场保留",
+        "en": "Concession and retained stance",
+        "fr": "Concession et position maintenue"
+      },
+      "requiredMeaning": [
+        "The speaker does not want to abandon ideas, even though some are extreme."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1412,
+      "translationId": 3228,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：反事实与关系从句；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：反事实与关系从句；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "反事实与关系从句",
+        "en": "Hypothetical relative clause",
+        "fr": "Relative et hypothèse"
+      },
+      "requiredMeaning": [
+        "If the speaker wanted to scare the addressee, they would recount a dream from weeks ago."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1496,
+      "translationId": 3311,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：条件式与解释成本；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：条件式与解释成本；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "work",
+      "childSafe": true,
+      "focus": {
+        "zh": "条件式与解释成本",
+        "en": "Hypothetical explanation",
+        "fr": "Explication hypothétique"
+      },
+      "requiredMeaning": [
+        "Explaining why it will not work would take too much time."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1937,
+      "translationId": 3758,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：关系从句与声誉；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：关系从句与声誉；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "关系从句与声誉",
+        "en": "Relative clause and reputation",
+        "fr": "Relative et réputation"
+      },
+      "requiredMeaning": [
+        "The next-door neighbor's piano talent has earned recognition among music experts."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1959,
+      "translationId": 139524,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：消费态度与让步；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：消费态度与让步；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "消费态度与让步",
+        "en": "Spending attitude and concession",
+        "fr": "Dépense et concession"
+      },
+      "requiredMeaning": [
+        "The roommate spends freely on newly released films regardless of price."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13577290,
+      "translationId": 13577293,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：被动与专业风险；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：被动与专业风险；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "work",
+      "childSafe": false,
+      "focus": {
+        "zh": "被动与专业风险",
+        "en": "Passive and technical risk",
+        "fr": "Passif et risque technique"
+      },
+      "requiredMeaning": [
+        "Backdoors allow unauthorized access, operational disruption or further attacks, creating security risks."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13562992,
+      "translationId": 13562988,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：定义与连续修饰；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：定义与连续修饰；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "定义与连续修饰",
+        "en": "Definition with modifiers",
+        "fr": "Définition et expansions"
+      },
+      "requiredMeaning": [
+        "A composter turns organic waste into nutrient-rich compost that can improve soil."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13538977,
+      "translationId": 13538978,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：定义与替代关系；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：定义与替代关系；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "定义与替代关系",
+        "en": "Definition and alternative",
+        "fr": "Définition et remplacement"
+      },
+      "requiredMeaning": [
+        "A touchpad responds to finger movement or pressure, especially on laptops as a mouse alternative."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 22211,
+      "translationId": 9502,
+      "levels": [
+        4,
+        4
+      ],
+      "levelReasons": [
+        "正向主动表达：让步与适应困难；结合目标语组织、句法与语用暂定 L4。",
+        "反向主动表达：让步与适应困难；结合目标语组织、句法与语用暂定 L4。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "让步与适应困难",
+        "en": "Concession and adaptation",
+        "fr": "Concession et adaptation"
+      },
+      "requiredMeaning": [
+        "Children raised overseas may struggle to adjust to Japanese schools after returning despite fluent Japanese."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 1962,
+      "translationId": 3776,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：回顾性疑问与否定；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：回顾性疑问与否定；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "回顾性疑问与否定",
+        "en": "Retrospective doubt",
+        "fr": "Doute rétrospectif"
+      },
+      "requiredMeaning": [
+        "Abundant wedding food and drink made the couple wonder whether they should have invited more guests; do not invert the rhetorical negation."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13885780,
+      "translationId": 705013,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：坦诚习语与条件；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：坦诚习语与条件；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "daily",
+      "childSafe": false,
+      "focus": {
+        "zh": "坦诚习语与条件",
+        "en": "Candor idiom and condition",
+        "fr": "Idiome de franchise et condition"
+      },
+      "requiredMeaning": [
+        "A good relationship requires full honesty and no repeat of the previous lies; cards on the table is figurative."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13806242,
+      "translationId": 1056093,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：自谦插语与叙事；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：自谦插语与叙事；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "study",
+      "childSafe": false,
+      "focus": {
+        "zh": "自谦插语与叙事",
+        "en": "Self-deprecating aside",
+        "fr": "Incise autodérisoire"
+      },
+      "requiredMeaning": [
+        "Leading the high-school newspaper sparked a passion for journalism; rag is a dismissive term for the paper."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13577301,
+      "translationId": 13577303,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：归属立场与条件推论；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：归属立场与条件推论；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "work",
+      "childSafe": false,
+      "focus": {
+        "zh": "归属立场与条件推论",
+        "en": "Attributed stance and conditional reasoning",
+        "fr": "Opinion attribuée et raisonnement conditionnel"
+      },
+      "requiredMeaning": [
+        "Users and advocates argue backdoors threaten privacy; both law enforcement and malicious actors can exploit them for unauthorized data access."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 13826670,
+      "translationId": 1403453,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：语义歧义与推论；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：语义歧义与推论；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "daily",
+      "childSafe": true,
+      "focus": {
+        "zh": "语义歧义与推论",
+        "en": "Ambiguity and inference",
+        "fr": "Ambiguïté et déduction"
+      },
+      "requiredMeaning": [
+        "The dialogue jokes that a watch is not lost because its location at the bottom of the sea is known."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    },
+    {
+      "sourceId": 30538,
+      "translationId": 1591847,
+      "levels": [
+        5,
+        5
+      ],
+      "levelReasons": [
+        "正向主动表达：承认与时间焦点；结合目标语组织、句法与语用暂定 L5。",
+        "反向主动表达：承认与时间焦点；结合目标语组织、句法与语用暂定 L5。"
+      ],
+      "scene": "study",
+      "childSafe": true,
+      "focus": {
+        "zh": "承认与时间焦点",
+        "en": "Concession and temporal focus",
+        "fr": "Concession et focalisation temporelle"
+      },
+      "requiredMeaning": [
+        "The speaker studied English at school but only began taking it seriously two or three years ago."
+      ],
+      "review": {
+        "status": "ai-reviewed",
+        "reviewer": "Codex AI editorial review",
+        "date": "2026-10-14",
+        "alignment": "accepted",
+        "naturalness": "accepted",
+        "context": "self-contained",
+        "human": "pending",
+        "calibration": "pending"
+      }
+    }
+  ],
+  "exclusions": [
+    {
+      "sourceId": 1304,
+      "translationId": 27,
+      "reason": "English studying is broader than the Chinese reference revision; reject unsupported narrowing."
+    },
+    {
+      "sourceId": 1304,
+      "translationId": 3120,
+      "reason": "English studying is broader than French révisions; reject unsupported narrowing."
+    },
+    {
+      "sourceId": 1523,
+      "translationId": 334467,
+      "reason": "English may versus Chinese 很可能 shifts probability strength."
+    },
+    {
+      "sourceId": 3339,
+      "translationId": 334467,
+      "reason": "French là-bas has no corresponding place in the Chinese reference."
+    },
+    {
+      "sourceId": 9184608,
+      "translationId": 10272641,
+      "reason": "Uncertain alignment of mixed counterfactual time; exclude until independent review."
+    },
+    {
+      "sourceId": 636531,
+      "translationId": 636723,
+      "reason": "Uncertain French mood and naturalness; exclude until independent review."
+    },
+    {
+      "sourceId": 3331,
+      "translationId": 334475,
+      "reason": "French Il se peut que expresses possibility, while Chinese 很可能 strengthens probability."
+    }
+  ]
+}

@@ -1,0 +1,1213 @@
+{
+  "schemaVersion": 1,
+  "records": [],
+  "releaseAcceptance": {
+    "kind": "user-directed-assumption",
+    "decision": "accept",
+    "declaredBy": "project-owner",
+    "declaredOn": "2026-10-15",
+    "statement": "全部按照已经人工检查通过计算，把修改合并到新分支",
+    "tasks": [
+      {
+        "taskId": "tatoeba-1277-2",
+        "contentSha256": "8c8689400cb0ffbcedb19e5c766ff0b0044895d20faff361907c04b2114976fc"
+      },
+      {
+        "taskId": "tatoeba-2-1277",
+        "contentSha256": "7e3d39d3697928322765637c3a6911a8fbd29d7bf0172a692821d001e3ab4e45"
+      },
+      {
+        "taskId": "tatoeba-3211-501373",
+        "contentSha256": "8518d68c9b3de1215a784736debf05c156f8c7c2d32e7c92bf754fafff465872"
+      },
+      {
+        "taskId": "tatoeba-501373-3211",
+        "contentSha256": "b56a775833d8f4879b3b02de39bcd6a7874e3c94f42a8c154d6bd7aa74a7354e"
+      },
+      {
+        "taskId": "tatoeba-1277-373908",
+        "contentSha256": "d7764003b12667da4953c0b760af0917c65245e76ac4b534f728b2af400e3727"
+      },
+      {
+        "taskId": "tatoeba-373908-1277",
+        "contentSha256": "bf97c27e582e9ce341564c35d0afe2d04696041c6d686d39748f414a36482dbe"
+      },
+      {
+        "taskId": "tatoeba-1308-29",
+        "contentSha256": "79e1e60b7dad0ccd66d7f9775714112ebeaef8cc4b250cb4cc9821009a1f7ea3"
+      },
+      {
+        "taskId": "tatoeba-29-1308",
+        "contentSha256": "02b691f97376b80f8d4eed8b628392fcd2b6b09e479dd129e136ff79180d4586"
+      },
+      {
+        "taskId": "tatoeba-3124-29",
+        "contentSha256": "a9df6962c2e938dfb9ab697250ce8fca32d51c079256d42d4d88b4636d811416"
+      },
+      {
+        "taskId": "tatoeba-29-3124",
+        "contentSha256": "3b1d8be91d37222e39e52a349c38d040d8bf2a4c59ebd540a20c06f570b74bd4"
+      },
+      {
+        "taskId": "tatoeba-1308-3124",
+        "contentSha256": "0fb610bacc2c000be4c4af7100f3ef95038f123cb269e832f144b3c33b221296"
+      },
+      {
+        "taskId": "tatoeba-3124-1308",
+        "contentSha256": "458c0c5d303be2b461ceaa424d6aeb65a5f81354d63eb37a9c2497d249c62030"
+      },
+      {
+        "taskId": "tatoeba-1312-33",
+        "contentSha256": "b07c5a9da93e61be1a9e31c5e1ebf1a2d3f8312606bcceb18d70185777c9f932"
+      },
+      {
+        "taskId": "tatoeba-33-1312",
+        "contentSha256": "620ca7d53d733fa97fbd05e04aec8637ab2994f0539f8dc08694da40c8d248b5"
+      },
+      {
+        "taskId": "tatoeba-1326-43",
+        "contentSha256": "45c05bacda7c28f6a343b32e80ff769d9023a89d23a96cf2088b851ef13488ac"
+      },
+      {
+        "taskId": "tatoeba-43-1326",
+        "contentSha256": "ec4834ee6e8df90d2ab2167fc40017cb3dba9c4000fde47f75877e5d97cc56b1"
+      },
+      {
+        "taskId": "tatoeba-3142-43",
+        "contentSha256": "efd80e66b9c30a3e6ebe92b970bdb3593b474b5a7eaef81ca9e271f4c55c2c41"
+      },
+      {
+        "taskId": "tatoeba-43-3142",
+        "contentSha256": "102c7cccaef4b2963adc3528417049e8d857a726f1c84bccd80615e5cf9bd999"
+      },
+      {
+        "taskId": "tatoeba-1326-3142",
+        "contentSha256": "96ecd7ded76063d1064daa3b4dbb232a570566160db0ab8dc5eded33b8e9d0c4"
+      },
+      {
+        "taskId": "tatoeba-3142-1326",
+        "contentSha256": "c22233b13b0d7fe0297c0fb12e05761f62b945b86cda7fb13adfdf90156d221f"
+      },
+      {
+        "taskId": "tatoeba-1385-1415838",
+        "contentSha256": "7618535729f6e91674995cc64014ee464fa01c2daabf8f970d6fcbcf09374ac0"
+      },
+      {
+        "taskId": "tatoeba-1415838-1385",
+        "contentSha256": "674070e16067841ca164c0b6feb220a8ad8d90d4059faed625258a85ae200e3f"
+      },
+      {
+        "taskId": "tatoeba-14061590-14061589",
+        "contentSha256": "cd2824827fa9d158d737d6cad3fc56881b2a74562d899b5235804703b7a62846"
+      },
+      {
+        "taskId": "tatoeba-14061589-14061590",
+        "contentSha256": "04d97f42f7d683a4db867ec70eeb4c02ee1967c1a1e27a6d42f17e84b9a6fe4e"
+      },
+      {
+        "taskId": "tatoeba-14061587-14061585",
+        "contentSha256": "1212ddf04dd5c2e154331eeb583914844484a9628c647b54e950392f8640c221"
+      },
+      {
+        "taskId": "tatoeba-14061585-14061587",
+        "contentSha256": "c5ceb2ae6d51cff1a1d66ee04ea03b4a01d036c6611971c812e1998de43b4c16"
+      },
+      {
+        "taskId": "tatoeba-14033464-14033463",
+        "contentSha256": "ab6e755a974a23e62cb31f1c2fe015a7582c9c36fcee5d4403ae135f7706cb67"
+      },
+      {
+        "taskId": "tatoeba-14033463-14033464",
+        "contentSha256": "f23b7e6e648f707804df944da0906d8cb01800e6a1ebac8903dc9ad5b889e088"
+      },
+      {
+        "taskId": "tatoeba-14029047-9054579",
+        "contentSha256": "f695e588df68372971a16df3b88e4c7d458d2d65483defac7f6bac7b74513151"
+      },
+      {
+        "taskId": "tatoeba-9054579-14029047",
+        "contentSha256": "b524d09081f37789fa8fa4f2245a96853df9efe5dd2f2dbd7e3c8e892c6be9ba"
+      },
+      {
+        "taskId": "tatoeba-14061594-14061592",
+        "contentSha256": "770ade935833835d9856782b603221ad4765476acb4a0056ff3ebdc94d22c7b6"
+      },
+      {
+        "taskId": "tatoeba-14061592-14061594",
+        "contentSha256": "8eb0621a48dd9d9091258263ea3d558e1f4f39a42961cb64417f05c935564812"
+      },
+      {
+        "taskId": "tatoeba-1291-16",
+        "contentSha256": "90742bf098efb4eb0906d108b6842149a501d283790799a56bc66dd5806ed429"
+      },
+      {
+        "taskId": "tatoeba-16-1291",
+        "contentSha256": "45406bb1cba60447216d57450370c6e5a826eb0c03d5eb628a8984eb0db83aef"
+      },
+      {
+        "taskId": "tatoeba-3106-16",
+        "contentSha256": "2ba7e2d7c1460ef20c9ead648eecc0dc19431fabc1a445fe3b88a9230e56f4bd"
+      },
+      {
+        "taskId": "tatoeba-16-3106",
+        "contentSha256": "090c0aacac425660ba4fb9f7b9c83e6137ccd4ef9dabfd33d053733e4b95a856"
+      },
+      {
+        "taskId": "tatoeba-1291-3106",
+        "contentSha256": "2982847d84b9127ab5c33bcb23cbdbc62c3128be34dd96ee723ab47b004b3fa8"
+      },
+      {
+        "taskId": "tatoeba-3106-1291",
+        "contentSha256": "a6d41fa813e415fc010ae704baa2dc5742317107da64b3fe315294b3e51f286c"
+      },
+      {
+        "taskId": "tatoeba-1373-57",
+        "contentSha256": "e496a0b8681c006fecbefc6fba8a07986c304e8b00638e4ef10fa8c9a86b7f73"
+      },
+      {
+        "taskId": "tatoeba-57-1373",
+        "contentSha256": "e6d6af7e301d1791fd93c02b02a59d6463f8a620bde9b7092b5286b199fd7231"
+      },
+      {
+        "taskId": "tatoeba-1398-501377",
+        "contentSha256": "826e61279355e073360787b58b7d1056a3c9365cd210f05f803a1d28542bfedd"
+      },
+      {
+        "taskId": "tatoeba-501377-1398",
+        "contentSha256": "b5fadc1cb3238895c8254169d29ea000ffbbfec6f8adb36ad99d66cc9cff4009"
+      },
+      {
+        "taskId": "tatoeba-3214-501377",
+        "contentSha256": "9e3692c19317520abb7ad59e55ed4732d4582d742f25c78102b3a53e7f11a7c8"
+      },
+      {
+        "taskId": "tatoeba-501377-3214",
+        "contentSha256": "2f1ec5063919a45efe890a9afab8637d9cd54c0c2605cf68e5af077255084f9e"
+      },
+      {
+        "taskId": "tatoeba-1403-501395",
+        "contentSha256": "9db8fd88e595a2669810b9d85f33fb4ed8a78416993e5cee779535bd9cac1320"
+      },
+      {
+        "taskId": "tatoeba-501395-1403",
+        "contentSha256": "bb7a5233940717dd2b95e47d934361167ff51d53bb885abcef50cb2c15628b80"
+      },
+      {
+        "taskId": "tatoeba-3219-501395",
+        "contentSha256": "9ca95713b5d4834ee9b63032014e7f5eb27c993074aeebdef495b81b0e92f67e"
+      },
+      {
+        "taskId": "tatoeba-501395-3219",
+        "contentSha256": "f06c5f4d029bd262fc5bada99a43856776684d839346ac241d1299861c5135e8"
+      },
+      {
+        "taskId": "tatoeba-1438-332935",
+        "contentSha256": "e88ddabedf09988a59f6a38a9fdb0340ed070d6bc308e3abd33e7d35a74af412"
+      },
+      {
+        "taskId": "tatoeba-332935-1438",
+        "contentSha256": "1b9e0fee9f348eb1ad11494bfbdec8caef15e9630b436615ab54528b960a68f1"
+      },
+      {
+        "taskId": "tatoeba-1462-335027",
+        "contentSha256": "97ace12afdff84d521b219c0387f678a59402032c0fe54104b82331e35d609fd"
+      },
+      {
+        "taskId": "tatoeba-335027-1462",
+        "contentSha256": "756b0e155dcaf702f897bf6b677d6f75193540816b6cea1aba7e3000babe3305"
+      },
+      {
+        "taskId": "tatoeba-14067715-2086657",
+        "contentSha256": "9ec2877021707cd5691a49f77ae5fcc5c684988ed7ff4ac455d865860f32262d"
+      },
+      {
+        "taskId": "tatoeba-2086657-14067715",
+        "contentSha256": "7897a66e94d82b32db265520dfe6d93a17cf387024b0e4fe2c2dd4be20e8c896"
+      },
+      {
+        "taskId": "tatoeba-14067728-14067727",
+        "contentSha256": "228c3b0f0e0e53390a907fb7689c89a17a8189a58288bc456ee42f7dd391fcae"
+      },
+      {
+        "taskId": "tatoeba-14067727-14067728",
+        "contentSha256": "120f1ec481e48e6c426afb0f32efb24bd94d8d796a2f47441b3f1a266a9426ab"
+      },
+      {
+        "taskId": "tatoeba-14038510-14038508",
+        "contentSha256": "b9c5a39d1c7d17859b1e33401bf10969a816dd1e1d9b838c2611f2c7b142e968"
+      },
+      {
+        "taskId": "tatoeba-14038508-14038510",
+        "contentSha256": "beeca2d8bd24786b6df230c7bab5e308ebe27bef13661f2dbba15b50f07b11fc"
+      },
+      {
+        "taskId": "tatoeba-14042166-14042780",
+        "contentSha256": "f6daea59836328f293d62308342623416c1756b9b7d3fecd231cd5170ea6e239"
+      },
+      {
+        "taskId": "tatoeba-14042780-14042166",
+        "contentSha256": "9b3b29f3cfede52436774ea3aef268b75282b14b59f4972f730b1f680c60b5a8"
+      },
+      {
+        "taskId": "tatoeba-14028320-14028319",
+        "contentSha256": "213896859e76504692f798bc00e2af2281541f60a1caa83eab8dfeb19ddea159"
+      },
+      {
+        "taskId": "tatoeba-14028319-14028320",
+        "contentSha256": "d460c10232bf647f3d66bb438846cca3b6e81eba5b4d9281226ecb4aefe07fe2"
+      },
+      {
+        "taskId": "tatoeba-14022947-8591228",
+        "contentSha256": "3d77762f45cd48fbf25a13ae7d2111fdce7ac7bdac7c9fb890ba2334c5e5aff1"
+      },
+      {
+        "taskId": "tatoeba-8591228-14022947",
+        "contentSha256": "148c28c87a187494bbccc0877c657f80891c1b509d1db5430176afbd7ab146d2"
+      },
+      {
+        "taskId": "tatoeba-14002102-14002101",
+        "contentSha256": "fee7dc09e6df183a4e04566c6b65869fe9d1c7e2f8b0156cba45798d61cf99c7"
+      },
+      {
+        "taskId": "tatoeba-14002101-14002102",
+        "contentSha256": "429823f37c4d4d8747264faed40fd714656a23abc9de25b3a28cd1239c1036ae"
+      },
+      {
+        "taskId": "tatoeba-1353-501331",
+        "contentSha256": "826672b5238a147c84b099cb6b272851d73d1d34e07767e8f71e148255a90825"
+      },
+      {
+        "taskId": "tatoeba-501331-1353",
+        "contentSha256": "8f4c1f85d99ea4bf166865cfa73e26d49bdf4c39bf4b7ecd1f7627a01b83c468"
+      },
+      {
+        "taskId": "tatoeba-1366-501339",
+        "contentSha256": "c7960eead6843c9d0e7bfe9ff59ae005c3de87e010d4645b254f33d2bdde3fef"
+      },
+      {
+        "taskId": "tatoeba-501339-1366",
+        "contentSha256": "d21ef505e2ecb899919a43157407e55805c38f2b1af6998905248f0317acc4e8"
+      },
+      {
+        "taskId": "tatoeba-3182-501339",
+        "contentSha256": "3ad29ab91095b7ecac5be6844d87f85cc76c586779b0f442a6aac95059be7861"
+      },
+      {
+        "taskId": "tatoeba-501339-3182",
+        "contentSha256": "6aa40246968410a5707cc86a4d76c9c861cdf04c88ca2de686d1121c664f4df7"
+      },
+      {
+        "taskId": "tatoeba-1366-3182",
+        "contentSha256": "fc1d525dcc460180675ccdba7305a2c9e5c7c11cd3604956e6fb3259d7acfa2b"
+      },
+      {
+        "taskId": "tatoeba-3182-1366",
+        "contentSha256": "219dcebef90384e0a0ee1e8f97cd70cae68bfef9b27dc498f6d76e1a1be817fe"
+      },
+      {
+        "taskId": "tatoeba-1399-454663",
+        "contentSha256": "21ca48ae47ba7163bda76e081ed06ed445e4c91fe3b7868a3bac6c1ec29e779b"
+      },
+      {
+        "taskId": "tatoeba-454663-1399",
+        "contentSha256": "b3b26e69aeaf110c99711426e31a7f1cf4a56fd601078a3bd79705e29f882ba7"
+      },
+      {
+        "taskId": "tatoeba-3215-454663",
+        "contentSha256": "3b78ab6078c18544a1363aba9b373002096137c1889fed283f1dda0c05b4cdae"
+      },
+      {
+        "taskId": "tatoeba-454663-3215",
+        "contentSha256": "3ca1c259620e9d5ba008ff53590b6534ffbc7263f6d7e94cf666a75640ad36aa"
+      },
+      {
+        "taskId": "tatoeba-1464-334925",
+        "contentSha256": "313fcffb4b4983f677c57f6b56196454a026c9cd85e8e1988d4871e36698a090"
+      },
+      {
+        "taskId": "tatoeba-334925-1464",
+        "contentSha256": "03afdacc30a1e5117cd4fafd19b404fe456bb593fe75a5ed48ef60db11437a96"
+      },
+      {
+        "taskId": "tatoeba-1472-334917",
+        "contentSha256": "4968c53dfae7cb61ea052649b66f5eb29262e5341c9b856c0f5f259829f9f85d"
+      },
+      {
+        "taskId": "tatoeba-334917-1472",
+        "contentSha256": "4b85b90e3a8f9e5051c3678209fda13003a2af6aed72c78839d4a48cad3e9cf9"
+      },
+      {
+        "taskId": "tatoeba-1475-334914",
+        "contentSha256": "12d5328cd645e2bf94a940b7acef00cc3ef7187f9a87ee61b84c8e068e287e56"
+      },
+      {
+        "taskId": "tatoeba-334914-1475",
+        "contentSha256": "9f8dae65a5b59a01dc14aabc62f09d31ca88f6f57cbd748bc96acba4aca6dadb"
+      },
+      {
+        "taskId": "tatoeba-1524-334463",
+        "contentSha256": "086e8919a10d1d3a1e99052695e8eba70ac49fb4c52a30e0dee12ef7c25f66ad"
+      },
+      {
+        "taskId": "tatoeba-334463-1524",
+        "contentSha256": "8a804c96f9b1bb8201cdfacb856f08a27860660bf8c93ce576b71065e37b8c39"
+      },
+      {
+        "taskId": "tatoeba-3340-334463",
+        "contentSha256": "4f0dce7ad3780a9e319b527ae1808cf54ffa93a7769c0c952729f6a07fd40339"
+      },
+      {
+        "taskId": "tatoeba-334463-3340",
+        "contentSha256": "5ac51ab4842163c7dcc440c346b670dac20fb817d2dbdede23f2e44b6a513f84"
+      },
+      {
+        "taskId": "tatoeba-1524-3340",
+        "contentSha256": "10580ae9d83929184849bb0d5d74db3156e37654771a71b84824d90459ae6d20"
+      },
+      {
+        "taskId": "tatoeba-3340-1524",
+        "contentSha256": "8707d22c46f35bc53c6f9eb6bec303e9d78432a6a60a0823e0bb1a5b7187ab2b"
+      },
+      {
+        "taskId": "tatoeba-1617-334142",
+        "contentSha256": "804f88a864d82c8d93b54c32939cf1fce3ecaddefd31a3741828d1b1bfdd6941"
+      },
+      {
+        "taskId": "tatoeba-334142-1617",
+        "contentSha256": "d989de08204c3738b032443df337f679c11cbf251f5ef8a53d417abb661edaa2"
+      },
+      {
+        "taskId": "tatoeba-1863-502840",
+        "contentSha256": "f7995c3bb46f9d13d97db8b0374274a31ec69539a6c84357f60902a6a35cdacc"
+      },
+      {
+        "taskId": "tatoeba-502840-1863",
+        "contentSha256": "b63095902b91f9a1ec1ea45a1879b4d6331dc71b1239832c67f16d3c57360bb7"
+      },
+      {
+        "taskId": "tatoeba-14009886-13998043",
+        "contentSha256": "c340810b10dd0410a0405049f4b0bac15cc850652606a88ca48230bea29edf50"
+      },
+      {
+        "taskId": "tatoeba-13998043-14009886",
+        "contentSha256": "a18a6bdf6b1960d205092208f75125e4a66f9320b36c2800fc17f758afa352a7"
+      },
+      {
+        "taskId": "tatoeba-13902344-13902321",
+        "contentSha256": "9427aa113723cbdf6cb13ec9ed00659391eb068bdccfd79e36ce8a57547071b1"
+      },
+      {
+        "taskId": "tatoeba-13902321-13902344",
+        "contentSha256": "947508ff110723fbb7fbf2fb2478e6e37cd5a5c84bc74935ff09cb9e9dbe5129"
+      },
+      {
+        "taskId": "tatoeba-1345-501323",
+        "contentSha256": "cbc6c87dd010435afdf850ed3657bab807422a308e2e194cbf791d98eefa1ad9"
+      },
+      {
+        "taskId": "tatoeba-501323-1345",
+        "contentSha256": "e43c0f3dfe906033f8ba233f7ff53f1f7e55ee8332051d8a9eaf24b595db1402"
+      },
+      {
+        "taskId": "tatoeba-3161-501323",
+        "contentSha256": "28835f3e984a07f37dd9a1354e83446e36200997b712c85196ea8dace217e5ce"
+      },
+      {
+        "taskId": "tatoeba-501323-3161",
+        "contentSha256": "687ce8ba268f9f8bd832b6a6af31ffc40a024bbc3b5e3e1c2ea7c25c184e0fa0"
+      },
+      {
+        "taskId": "tatoeba-1345-3161",
+        "contentSha256": "d7d6fedc99c544b1ebaf2f20a402f950fbdb53d388162b4e568394e75d268348"
+      },
+      {
+        "taskId": "tatoeba-3161-1345",
+        "contentSha256": "e3ad2579a8ade2b15a602611949d922a0d7626bc449b3815437e3ba85254ae5a"
+      },
+      {
+        "taskId": "tatoeba-1496-334703",
+        "contentSha256": "974209a3b4fbeaf7195bedfb9c1b3beaf5feb932d63ac106b71435ceffcb9d3e"
+      },
+      {
+        "taskId": "tatoeba-334703-1496",
+        "contentSha256": "ca65ee7df5a4c2f2f8993ac190d9c297f11a329f84d2d2415a20917d5811babd"
+      },
+      {
+        "taskId": "tatoeba-3311-334703",
+        "contentSha256": "3cb7c447a49d08a1077f63b93f95966b88d5ccee090e7cd25af4c022008e3aa5"
+      },
+      {
+        "taskId": "tatoeba-334703-3311",
+        "contentSha256": "a36632492189940aa3fb3c4dfb2e3df98ab85764ddf6cb7a5455176a0fe389fb"
+      },
+      {
+        "taskId": "tatoeba-1496-3311",
+        "contentSha256": "2ea26a09f4d4407862548beb7fc7eda31d0db0c75bcaba34953cde0f1c06eac6"
+      },
+      {
+        "taskId": "tatoeba-3311-1496",
+        "contentSha256": "5ba8854b08ad97e6fa143c6a9a3ad61e1668b9fd9cb0b959c4cade812f59e19b"
+      },
+      {
+        "taskId": "tatoeba-1589-334177",
+        "contentSha256": "d2f0f9e49f82940fc447349e61cbcd9af157ceb8f2605fa4f11c6f397c877d2d"
+      },
+      {
+        "taskId": "tatoeba-334177-1589",
+        "contentSha256": "5e3ef753f811251afcb57bd44eb1d6fe9039bab8f8016f580a2c74586ceb31b8"
+      },
+      {
+        "taskId": "tatoeba-14059843-14059839",
+        "contentSha256": "5692e982e54a723b220ac3af92015f1138c0bd3250d19950bd320fa9396922ed"
+      },
+      {
+        "taskId": "tatoeba-14059839-14059843",
+        "contentSha256": "a4308f08d80e38bac48cb50315ebf89756c84b3eadf90ada8c6284bf82530f8c"
+      },
+      {
+        "taskId": "tatoeba-14028764-14028761",
+        "contentSha256": "8e728fd63bac635e768bb477c7bcaf190b96a793608b063d3c6827e1e5b5412c"
+      },
+      {
+        "taskId": "tatoeba-14028761-14028764",
+        "contentSha256": "bb7f8fadfa0889b258a9f25cebff60e00065b993f5e6b5fac1ce6524acbedc34"
+      },
+      {
+        "taskId": "tatoeba-14079409-14079406",
+        "contentSha256": "b51c134e097009b22b5a99631c7ef33c49230388fe937ecf44718fa615439289"
+      },
+      {
+        "taskId": "tatoeba-14079406-14079409",
+        "contentSha256": "4a9dc3df13458d59c8603a14d786870b66cfb0f6c6dffee834836022b0f2465a"
+      },
+      {
+        "taskId": "tatoeba-14008284-14008279",
+        "contentSha256": "ed6450e3014e846dca250141e4c8925f8f135104f400c014016322ecdc71fb5b"
+      },
+      {
+        "taskId": "tatoeba-14008279-14008284",
+        "contentSha256": "c4bee0aa5625dcfc5b6f8878b50563836f26a2306bcfdeb4c7c93555bced555a"
+      },
+      {
+        "taskId": "tatoeba-13998090-13998155",
+        "contentSha256": "25fd60d58562312b880fe78c3bb52d9164f8dbef11edb1e01bd549246f6dde5e"
+      },
+      {
+        "taskId": "tatoeba-13998155-13998090",
+        "contentSha256": "e8fa3b97a73f4100e3c4b66534fc73d99c0ac1933091eb008d9b403f1434b1fb"
+      },
+      {
+        "taskId": "tatoeba-14028314-14028313",
+        "contentSha256": "ba4b5ad1553bfc6eea66e7c7a7808dfbdeaf66493609efdc1eddd29048e0ddf8"
+      },
+      {
+        "taskId": "tatoeba-14028313-14028314",
+        "contentSha256": "28bd5f86ac4e97a7a76a8e310541daaf52836b653755acbc6edbfca1d56a67d1"
+      },
+      {
+        "taskId": "tatoeba-13970777-13970770",
+        "contentSha256": "d418d5d73b1274dd6afd53b722d439e37721792d564ff2933f61e4f73c0b7985"
+      },
+      {
+        "taskId": "tatoeba-13970770-13970777",
+        "contentSha256": "220a9c23a819da7603e646cc982ce54f8f554890f3bbc16841bfbc32a73b0994"
+      },
+      {
+        "taskId": "tatoeba-14064752-14064748",
+        "contentSha256": "1898138396ca5e652a03700686fd49430b752f280fc09a8af207a1dd5df27498"
+      },
+      {
+        "taskId": "tatoeba-14064748-14064752",
+        "contentSha256": "bcdd2cb73045ba869d98232e7cf972bd7fde5f964c270b48fab76d3d492cce9b"
+      },
+      {
+        "taskId": "tatoeba-13896527-13896524",
+        "contentSha256": "05e3f3a1af95ebe76f6420850d494cdab3748e5975362d9eff88e5b793a39299"
+      },
+      {
+        "taskId": "tatoeba-13896524-13896527",
+        "contentSha256": "fc1c93b4ddec7321c3e0fca3f0cc1b0777df15de440c0c732e231bff5a8a087e"
+      },
+      {
+        "taskId": "tatoeba-13979533-13979532",
+        "contentSha256": "f45d76bc42968e4937bef8783cc7b615f31667fcd96748b3e02ef1fa756fb7aa"
+      },
+      {
+        "taskId": "tatoeba-13979532-13979533",
+        "contentSha256": "5134ae010db47bf27cdf1c090e2f2b90bee8622e3e6a21874f120be7bbffb389"
+      },
+      {
+        "taskId": "tatoeba-14037614-14037609",
+        "contentSha256": "ecd39927676b63a4b3bf1bd9b80cf561a4a049878ea263497ba3e07a359d57e8"
+      },
+      {
+        "taskId": "tatoeba-14037609-14037614",
+        "contentSha256": "190d29cf2ed64bf21813b1fcbad6d9ef67b7a3c477e3b919e64fce9f6dda4fbf"
+      },
+      {
+        "taskId": "tatoeba-40426-2318421",
+        "contentSha256": "37c2ead5fbae8f2acd378caa97ad7c5c5b982e45e3422f4ad2f1b6fec665d631"
+      },
+      {
+        "taskId": "tatoeba-2318421-40426",
+        "contentSha256": "18a4b95361896b7187406787e9e08480ddb1260a26b47b36e080f9a22cab99d0"
+      },
+      {
+        "taskId": "tatoeba-14063377-14063376",
+        "contentSha256": "b9dc191611869e358a68fae6744d9fcc57eb8f38bab4be8b4c8bc20d88e52d63"
+      },
+      {
+        "taskId": "tatoeba-14063376-14063377",
+        "contentSha256": "49da3a9286729300b1e8dee6fb78632e08e51a7b19050de83f1e5948195db924"
+      },
+      {
+        "taskId": "tatoeba-3100-10",
+        "contentSha256": "e80a8a67b58c39c7d3f38933f258d65aa22092d8d67ffedc15f2c3889136e04a"
+      },
+      {
+        "taskId": "tatoeba-10-3100",
+        "contentSha256": "8597dfe9b20d2b479ed2014213a027625619505f9e2b1a7b39a01abf9afe7918"
+      },
+      {
+        "taskId": "tatoeba-3207-501367",
+        "contentSha256": "50308a952b529f76e916f2f87d7fa79d831d5954dc57552dbe6c37ebf01f968b"
+      },
+      {
+        "taskId": "tatoeba-501367-3207",
+        "contentSha256": "3e3d9ae575f2659add442be213ec632d2549ec5f6cf54f662f379118001e23bb"
+      },
+      {
+        "taskId": "tatoeba-13970267-13970272",
+        "contentSha256": "6674982f0e289b1455d07e0437238f0f63ad9d6c5158d1d876937cccd891e516"
+      },
+      {
+        "taskId": "tatoeba-13970272-13970267",
+        "contentSha256": "bee8d21dae2d294118ec8aa62d679b43427f407db44a0604f9a75910afb9c977"
+      },
+      {
+        "taskId": "tatoeba-13969671-2027964",
+        "contentSha256": "63609c43b37b0009323602fc68db00383aa551ee0c17a969f029038f9ff578b2"
+      },
+      {
+        "taskId": "tatoeba-2027964-13969671",
+        "contentSha256": "f69b3750d4fabd808886c988b7f984a5becdf2123337e6348481c432de0b7971"
+      },
+      {
+        "taskId": "tatoeba-13959997-9992088",
+        "contentSha256": "9dc3dcfa4eb6590be8c41d1ebbe145807e04c9ec0d9cd4426bed25b5e2117331"
+      },
+      {
+        "taskId": "tatoeba-9992088-13959997",
+        "contentSha256": "55e4a055516dc8cbdd808e153bfaa4248e4adb5b08b2b4eb4c5cec4cc6cd6582"
+      },
+      {
+        "taskId": "tatoeba-13187570-13138445",
+        "contentSha256": "0ecf7a137740b0fcbaa51960d5c95561b18e72e4add74462f047328e5eeb4af6"
+      },
+      {
+        "taskId": "tatoeba-13138445-13187570",
+        "contentSha256": "d40a74f26e15d95f2b8f73bec32d1ceab9ffc8a1bb317db792fba1c5f7e05b90"
+      },
+      {
+        "taskId": "tatoeba-3170-501332",
+        "contentSha256": "c3deab470993f77c55ae50d0ca1561e152f15ac851858dac7342749640cbb66c"
+      },
+      {
+        "taskId": "tatoeba-501332-3170",
+        "contentSha256": "26f3a679bd3ff29117f04d84f8700a4d368b433e39b8038b0639280b542e9221"
+      },
+      {
+        "taskId": "tatoeba-3177-501336",
+        "contentSha256": "fac64a7e32193bb14208b73de86dff3491f2a8e06a8e0350f0e8bbed499d01d7"
+      },
+      {
+        "taskId": "tatoeba-501336-3177",
+        "contentSha256": "3315198c2b4b99bf919cd37468dd647d49a716ebe2814f2030a2972877e87959"
+      },
+      {
+        "taskId": "tatoeba-3197-501352",
+        "contentSha256": "f0501e0dd2ec5b699456a15d0589385f59fece8a3e359b736d1770709fb1eb7d"
+      },
+      {
+        "taskId": "tatoeba-501352-3197",
+        "contentSha256": "89788ac9c558021b3076bd5cdcf63e740232e14bac386adf3398cc4b202991f7"
+      },
+      {
+        "taskId": "tatoeba-1381-3197",
+        "contentSha256": "b7d84b77802ec2bd6a79ee5cbe84a112380acdfc49959e6aad74e342e5ce89dd"
+      },
+      {
+        "taskId": "tatoeba-3197-1381",
+        "contentSha256": "d52c0c4433dbf7240a9597c6ed227421484d405b2e97e1ce7ce2075300635aab"
+      },
+      {
+        "taskId": "tatoeba-3221-501399",
+        "contentSha256": "cb251ad72957185fca01b84ec2ac914ef571012976c96b9c70159a4e06a174aa"
+      },
+      {
+        "taskId": "tatoeba-501399-3221",
+        "contentSha256": "0b5f99acd01952405ca9acca5fa4f8ce8040eeefea417b7031b01ccf96c28e0a"
+      },
+      {
+        "taskId": "tatoeba-3230-345992",
+        "contentSha256": "3fe213555a9a8d2dedae34ac52dddfc1eca30a3b3da608ce8b15071cac2c8d2f"
+      },
+      {
+        "taskId": "tatoeba-345992-3230",
+        "contentSha256": "8702238921e9f187a8913cfd64e44b317b83cf37e2a044ca878f2b32bfe919ed"
+      },
+      {
+        "taskId": "tatoeba-12891664-813315",
+        "contentSha256": "e5b61f1c56a070ec887dd7c30eb71ade8448183c45dde651266393ae17105e23"
+      },
+      {
+        "taskId": "tatoeba-813315-12891664",
+        "contentSha256": "2db21d8adff5a6b6f6134e02482fce33bd7c1a802f86ad9065d22e06198e27ac"
+      },
+      {
+        "taskId": "tatoeba-12652561-12618525",
+        "contentSha256": "aac6b9dadc737e1b589b8a76f76ebb2cd399bf4d6bbcaaa59a38d73b8f703c2b"
+      },
+      {
+        "taskId": "tatoeba-12618525-12652561",
+        "contentSha256": "6f5c4359920fb19a6c0440321fb8c8b52de89ff98820c53a59231c0b5b4a4662"
+      },
+      {
+        "taskId": "tatoeba-13247597-4900963",
+        "contentSha256": "a88d0834eac22a805cfda408206b486555507937cba0f80841dcf32ac460f740"
+      },
+      {
+        "taskId": "tatoeba-4900963-13247597",
+        "contentSha256": "ef489cf0135ef5fb8b95f5373f6435f4b64eb4106b7e7a00aff916e2271e40db"
+      },
+      {
+        "taskId": "tatoeba-13338212-332986",
+        "contentSha256": "3786d45fad09e44cb8e56ab2a67f0e5ec6a09b8031da43573bdca65bb8b82cde"
+      },
+      {
+        "taskId": "tatoeba-332986-13338212",
+        "contentSha256": "bc429fec9e375864b990b85b0df0b979ed818a2754d228f23478a52ebb0743d4"
+      },
+      {
+        "taskId": "tatoeba-12441691-12687085",
+        "contentSha256": "81d5b11dc9df19a1c9be15f664a0c287d0dcb0341be810bad811ec5f39471db9"
+      },
+      {
+        "taskId": "tatoeba-12687085-12441691",
+        "contentSha256": "9dc7d78932bb6b36736883d55f3d3809d8dbe2ce6683b8179b0b91751d0d1069"
+      },
+      {
+        "taskId": "tatoeba-9550303-11264798",
+        "contentSha256": "8cd0a8a25888a74310ccaf8b8d351c1f94806201201b121ab559d1d7302e7a42"
+      },
+      {
+        "taskId": "tatoeba-11264798-9550303",
+        "contentSha256": "eb62a676a6c0e278ba11571be2805e8b371039c05f8f650379142e173332bdcd"
+      },
+      {
+        "taskId": "tatoeba-3120-27",
+        "contentSha256": "88ae1f2fb1c9a8e3498e1d7972e4aa0e217bd1c6b64df97d200bb460ddd501b7"
+      },
+      {
+        "taskId": "tatoeba-27-3120",
+        "contentSha256": "8bf82164a421275eca38d06100480b074c675c6401e7d3af10aac244a8a8c740"
+      },
+      {
+        "taskId": "tatoeba-3246-335063",
+        "contentSha256": "8047779e1f8d11b7bf77e05d11737649395f96734de8b7a6307d9d19e701592a"
+      },
+      {
+        "taskId": "tatoeba-335063-3246",
+        "contentSha256": "b4f5a0376052d80e37c424275f36a521bcde89a866aab219c9a94e730fd12961"
+      },
+      {
+        "taskId": "tatoeba-3361-334444",
+        "contentSha256": "f620b43c5bf831fabdfc4a604b45873bd23c9127cb793c885e7b8c3d3b382238"
+      },
+      {
+        "taskId": "tatoeba-334444-3361",
+        "contentSha256": "b199f5d0dfd9fb4375875a95cbdc083e4498af3c8bbb7e5b8957138b57f3d897"
+      },
+      {
+        "taskId": "tatoeba-10593203-10593201",
+        "contentSha256": "ab2a4f8b624303e1492289829c4097dfce598361fd2fdf92d318bcfab4c37f72"
+      },
+      {
+        "taskId": "tatoeba-10593201-10593203",
+        "contentSha256": "1742c1a521e4fcd08e3eb374623ddfd3502929e58ec457211f4117367752c700"
+      },
+      {
+        "taskId": "tatoeba-10593182-10593181",
+        "contentSha256": "26353bd9952b215f09d8d5c80d4e89af0b08fdf7cd34523021e6a40c092d7bdf"
+      },
+      {
+        "taskId": "tatoeba-10593181-10593182",
+        "contentSha256": "755461c6c3e79b3281a85dd963af594cd1034e62fd29b5e463a5bb1bebe94d76"
+      },
+      {
+        "taskId": "tatoeba-8806791-9963090",
+        "contentSha256": "1d653def26c15997d1debac2fada2856f683031282a4bfad3180e37335400bb8"
+      },
+      {
+        "taskId": "tatoeba-9963090-8806791",
+        "contentSha256": "28ec9bc1aa593673ed12797c35822bc22b29d9d10383be547e698748d289a660"
+      },
+      {
+        "taskId": "tatoeba-8447860-5550273",
+        "contentSha256": "da8e9a1cfadc6ffadadd76b49771bb77e4f41d39ff31d9b5a63f2cb2e3f03b33"
+      },
+      {
+        "taskId": "tatoeba-5550273-8447860",
+        "contentSha256": "182716c45466927db57dddc0b8f11210bca9dadcb3ae5d32672db9671701828a"
+      },
+      {
+        "taskId": "tatoeba-8387634-2029317",
+        "contentSha256": "6d06a8ca9b5805507d656f29dd327a273a78a68a555e7ecb4ba2a5d4296d29e9"
+      },
+      {
+        "taskId": "tatoeba-2029317-8387634",
+        "contentSha256": "aa05d04561e5d3a44a1431838f53bc6bc62182152773cb113050969aa4b37207"
+      },
+      {
+        "taskId": "tatoeba-3780-502975",
+        "contentSha256": "ba1d7664d36966bbcde69aacc64b2d4d2aaaaa5849248978e772121f4164deeb"
+      },
+      {
+        "taskId": "tatoeba-502975-3780",
+        "contentSha256": "c0efaf47d425d02b48f6128a7cba2cac4b1fc6a1b1d4b423e83284a09ae3cc79"
+      },
+      {
+        "taskId": "tatoeba-12408179-7768305",
+        "contentSha256": "43843da6b9fd6024c259ca96e6c4ae586d9f1c786ad37812daff917e5ab48f5c"
+      },
+      {
+        "taskId": "tatoeba-7768305-12408179",
+        "contentSha256": "44163e4923fd0ebf100a33f5d638e5474f4af1219265bed561b4b13e486f34e2"
+      },
+      {
+        "taskId": "tatoeba-10629655-332982",
+        "contentSha256": "a3bc03875a521167f3f3ea4cea0939c0e812736526061de67673975561ee39f9"
+      },
+      {
+        "taskId": "tatoeba-332982-10629655",
+        "contentSha256": "ea8b84676c32994b32749229060005e0ecfd1c6e2a7d88fb445279d50a51d69e"
+      },
+      {
+        "taskId": "tatoeba-3784-502985",
+        "contentSha256": "5c62fed5628b2c11751f53e13dadbedc3290913c1b323e88456f0cbfad402f42"
+      },
+      {
+        "taskId": "tatoeba-502985-3784",
+        "contentSha256": "b2f42d8b7960b1cc1e4f1e4983512f68b03e317b6547910b86373229ba709c3f"
+      },
+      {
+        "taskId": "tatoeba-1402569-1402568",
+        "contentSha256": "255dc764540d7dec5ea54fe0f2c137059951d4075d2cd2e25453e8179bc60019"
+      },
+      {
+        "taskId": "tatoeba-1402568-1402569",
+        "contentSha256": "2b629fb20ea5566fb75238f8d4b2e9c7d81865ff2eeb3368d6178f12ef4f92b7"
+      },
+      {
+        "taskId": "tatoeba-1251203-1776810",
+        "contentSha256": "71564645ec026fab21e2989d192ecbc18561e7211a04de7a07f22f510bac25f1"
+      },
+      {
+        "taskId": "tatoeba-1776810-1251203",
+        "contentSha256": "40ec2098bb13370f88752e505ae5033d618f5ae965952ed70825a87fec020750"
+      },
+      {
+        "taskId": "tatoeba-129921-791471",
+        "contentSha256": "198506a6a3092983a1f63aa7604af0a056a03187f5c5b8b6b78f2a943e3c0124"
+      },
+      {
+        "taskId": "tatoeba-791471-129921",
+        "contentSha256": "2d260adedd90747712ec5ac022533a39e26a395032e61237164f725bcc7bb521"
+      },
+      {
+        "taskId": "tatoeba-1463294-743112",
+        "contentSha256": "67ef6360a4c2b440736d9f790fb23559ce5b9959ef4d85552dd0c3df00b6a82f"
+      },
+      {
+        "taskId": "tatoeba-743112-1463294",
+        "contentSha256": "e45d3ba4997d064ae0265330f49e24180c31375292f4e1c9d70bc26be5571519"
+      },
+      {
+        "taskId": "tatoeba-3754-502908",
+        "contentSha256": "4907611b439722dec76382e8aa3d85142aff2d514c4f980daac3ccfedc59c512"
+      },
+      {
+        "taskId": "tatoeba-502908-3754",
+        "contentSha256": "1c2b3b9966b616b41c279800671312f8581c492e80874a669a6118901ec1903b"
+      },
+      {
+        "taskId": "tatoeba-3564-501713",
+        "contentSha256": "1ffaa0afc48baac17033a33ff0a19eb798e6fbd3afcf67dfa124929c1eee701f"
+      },
+      {
+        "taskId": "tatoeba-501713-3564",
+        "contentSha256": "fe98dffeb9b011438e1461dab788a5562ff1448d10897babc36cc53fa877b389"
+      },
+      {
+        "taskId": "tatoeba-3622-502741",
+        "contentSha256": "3466235d10bcd7dbe4a2023b6c6ee806242855e047350ba6c20bfe3aeead1d30"
+      },
+      {
+        "taskId": "tatoeba-502741-3622",
+        "contentSha256": "eb3082ec5ea5815c101d5b3ac24ecbb6b99f4f026f201c6e852dc769d810cbd9"
+      },
+      {
+        "taskId": "tatoeba-775306-811391",
+        "contentSha256": "331a7e7229968b87c3d282569664b7998cf2ffa53c72d0321026091c40b860d1"
+      },
+      {
+        "taskId": "tatoeba-811391-775306",
+        "contentSha256": "681de4b40cbeae8e8aed31d11e76895f5c40bb4e55d7e5cfe66ddd64f5ff426b"
+      },
+      {
+        "taskId": "tatoeba-9026481-8640058",
+        "contentSha256": "9af26e3d65d8fbedf919cfa27e939d00507d2b2331cc4c5ab505fb2046c9a420"
+      },
+      {
+        "taskId": "tatoeba-8640058-9026481",
+        "contentSha256": "98b28b5251a1c5caa239023d07303a11f998254b735c62928a7ba964c2ce187b"
+      },
+      {
+        "taskId": "tatoeba-2116812-9958567",
+        "contentSha256": "d6c042e429f0b8b8497ffc39ffb54a539e2d24c4d9cf25f01fe356acdafefca8"
+      },
+      {
+        "taskId": "tatoeba-9958567-2116812",
+        "contentSha256": "859d059a5e34a29145fc6f5fba2646191aa955de3c28340da8cf0a45dbb56179"
+      },
+      {
+        "taskId": "tatoeba-1276-3091",
+        "contentSha256": "f05d8f96358d57ec0e59ff3b9344fd518dfeb6e3dd274a0938e0a09b14b256b0"
+      },
+      {
+        "taskId": "tatoeba-3091-1276",
+        "contentSha256": "52d418dd2ae365605bc9d8991b21ed2c32b886dd82c585a48c4f69e2887e8f91"
+      },
+      {
+        "taskId": "tatoeba-1284-3099",
+        "contentSha256": "177b03129e8ec886508218b24af9193e1f1cc87657877aed36110009fd43a0a1"
+      },
+      {
+        "taskId": "tatoeba-3099-1284",
+        "contentSha256": "b1d37799cacf7c1b53fc2eb03956f273a182bea481a761b318f2a01f074f3721"
+      },
+      {
+        "taskId": "tatoeba-1298-3114",
+        "contentSha256": "63db21a2f7d8c355a09295b2eb53d1737da12ddc1f2aaea600ad0d71f0f58439"
+      },
+      {
+        "taskId": "tatoeba-3114-1298",
+        "contentSha256": "964caf4d280f86d45e0a73ae319d31bdce62ebe3e34a20a180cf0bdd934d255c"
+      },
+      {
+        "taskId": "tatoeba-1311-3127",
+        "contentSha256": "cd2df451ef21eb511ab40b62df844883893232c1a7e5bbc63450942c245938c4"
+      },
+      {
+        "taskId": "tatoeba-3127-1311",
+        "contentSha256": "f13972e8508f49435508c53a03a599c59a93da73b1211ea33d3ec6bdc2054914"
+      },
+      {
+        "taskId": "tatoeba-1328-3144",
+        "contentSha256": "32c07fb9c7b9317c89e9bf3a47bb2bda15f1e8a5b516222c96d9898bcfbfc3f7"
+      },
+      {
+        "taskId": "tatoeba-3144-1328",
+        "contentSha256": "03dd0de13cd2819e064240b3c210b187e82d7da68681539b436c919361643102"
+      },
+      {
+        "taskId": "tatoeba-14071990-14071988",
+        "contentSha256": "e385313d946322394e55879368eec53ac984ad8b168bd71596d97d8147a3b873"
+      },
+      {
+        "taskId": "tatoeba-14071988-14071990",
+        "contentSha256": "a0e01041c5553277d920cb3470006c6e8d286b659776461d6dae68b5806d4533"
+      },
+      {
+        "taskId": "tatoeba-1295-376665",
+        "contentSha256": "ec0405c18ac6eb6f26cfc7d234f306d56cbd60d81f9ba7e94c679daa0814bd61"
+      },
+      {
+        "taskId": "tatoeba-376665-1295",
+        "contentSha256": "27a45e69e6ca164b258bca0c5308820653f1377e3a6b3d46e63f350247ef7eaf"
+      },
+      {
+        "taskId": "tatoeba-1309-3125",
+        "contentSha256": "beceaa11dd536b67dcad4853bf5af8e4657ba9155f8be1a161b5733ef8c24b8f"
+      },
+      {
+        "taskId": "tatoeba-3125-1309",
+        "contentSha256": "8a511cf3380875bc9f0ea53924b104154d0551cf970d26affb1211d30ca8f174"
+      },
+      {
+        "taskId": "tatoeba-1313-3129",
+        "contentSha256": "c9c818d3f91be7ec7f52a5ba66b9f98d93bfdf11cea26d7219f3cbfbbee50102"
+      },
+      {
+        "taskId": "tatoeba-3129-1313",
+        "contentSha256": "817264953d8d1774b33ae094bfa81202caa7cfd9a2116235cff584e40a600750"
+      },
+      {
+        "taskId": "tatoeba-14079526-14079527",
+        "contentSha256": "d5560cf916c7e878e6341dacb4b57f9ba31189e56c46cf57fd59358a4e4e4248"
+      },
+      {
+        "taskId": "tatoeba-14079527-14079526",
+        "contentSha256": "1a9460a47167dfec5d2b68e985bbf5a0876ec81fe53294ed1aad97983be4e585"
+      },
+      {
+        "taskId": "tatoeba-14074813-14074815",
+        "contentSha256": "bb5dc4c8b30bc7e5d922e851a2f0e32b708abab71624f7bebc166fd9d860ffd3"
+      },
+      {
+        "taskId": "tatoeba-14074815-14074813",
+        "contentSha256": "f00b879ddb9668cacaafdd0ca4c4b2efbb2325627066db9df66f407627111968"
+      },
+      {
+        "taskId": "tatoeba-14079537-14079539",
+        "contentSha256": "43a85a8d8e731abf26f1646d5d3da76e0ee7934705f0572e108718c2dcbbb26e"
+      },
+      {
+        "taskId": "tatoeba-14079539-14079537",
+        "contentSha256": "7c5134fea992ba307c4bdcf5fc392782e1859710aa39587f346b475f2e7f2b5a"
+      },
+      {
+        "taskId": "tatoeba-14076490-14076491",
+        "contentSha256": "91f6418e106b99fdbcd87eaaa9b32b92334dae363e33352c8950bf4b5a7508e4"
+      },
+      {
+        "taskId": "tatoeba-14076491-14076490",
+        "contentSha256": "09f7cb72e0a611963acb78d58745f89aa29c215ffad977191ebc5107ecfbfab0"
+      },
+      {
+        "taskId": "tatoeba-14076459-14076460",
+        "contentSha256": "808cdc338edd2cd3c90ab7d243276a9713074a8f48986003f4a3bb2c8c8f262b"
+      },
+      {
+        "taskId": "tatoeba-14076460-14076459",
+        "contentSha256": "d171a9b6fc630e2686211bf2c063adb5cf53e39dc91781e0b55bf10f7cdb9521"
+      },
+      {
+        "taskId": "tatoeba-14076438-14076435",
+        "contentSha256": "11633902cb1be5bc1b6b315c9e26af7b0ed9a2dbbdaf46cad78e3312cf9a7e99"
+      },
+      {
+        "taskId": "tatoeba-14076435-14076438",
+        "contentSha256": "af5cf8e8defecfd7fd07671ee17047c40b2fda53240a6a7383c0ec1fd00f4ce1"
+      },
+      {
+        "taskId": "tatoeba-14074503-14074502",
+        "contentSha256": "e75695b14846a1a30b8d5ecddb71ac0a529a11825e9ed57c2f91f68c01d16315"
+      },
+      {
+        "taskId": "tatoeba-14074502-14074503",
+        "contentSha256": "f512c6f28584ba08d6dd347786fca12a54e0c240d0c7b8180244d40561040250"
+      },
+      {
+        "taskId": "tatoeba-14074475-14074476",
+        "contentSha256": "a5f2556113a3b82ef6fdaaf1c6c310d8bf5962b89824dc1461b5a0524dde1f57"
+      },
+      {
+        "taskId": "tatoeba-14074476-14074475",
+        "contentSha256": "b12fa2acb8349f8191a07ae211ed23f4e646fd683ded81284a946271098a4d1a"
+      },
+      {
+        "taskId": "tatoeba-1371-3187",
+        "contentSha256": "204a90f057787f4f192ed7fe57dd852d20b6b3dad5bbfbea395377ebb014f380"
+      },
+      {
+        "taskId": "tatoeba-3187-1371",
+        "contentSha256": "f587b71650b5cd4a3443472545d6c9a5f142f3da0611368f69729cf03124f5ed"
+      },
+      {
+        "taskId": "tatoeba-1350-3166",
+        "contentSha256": "7e3ea0db5dc7c906f36120e5778f7187030cc32b3d06592ee38a23c03980b530"
+      },
+      {
+        "taskId": "tatoeba-3166-1350",
+        "contentSha256": "f21d44757a8a560a8b11d4dc3708858d03c1abbd615ff15c2039ba3acdad88a9"
+      },
+      {
+        "taskId": "tatoeba-1372-3188",
+        "contentSha256": "f243d7b8922468cae160f8714239fe020430ee341bdaea05405c4cd1421e01aa"
+      },
+      {
+        "taskId": "tatoeba-3188-1372",
+        "contentSha256": "aa81af65467d0baa4123d7d8069af3194d6748c71604214a3f724ae371240ebb"
+      },
+      {
+        "taskId": "tatoeba-1360-3176",
+        "contentSha256": "2d208ff7407f5a831dd9b5231eb1833c4534a57c8208ed0ec3a7aeee6a0601b8"
+      },
+      {
+        "taskId": "tatoeba-3176-1360",
+        "contentSha256": "2f2df14d06c4598aab614c915964f9abd535d52a08b6b828140a7c727ab298bb"
+      },
+      {
+        "taskId": "tatoeba-14079505-14079506",
+        "contentSha256": "884928aefcd954d987bd419828c75ec839cbd27a68186691e31ad7d1d0aebf9d"
+      },
+      {
+        "taskId": "tatoeba-14079506-14079505",
+        "contentSha256": "f21885274e9e92ab57ad2f541ac849860567a0c92fcde03b18decb9df051c4f5"
+      },
+      {
+        "taskId": "tatoeba-14074533-14074534",
+        "contentSha256": "5b89b67fda35f712d0cb38e1cf3fcff369aa5fa336bd8dd0656de4fdac27a244"
+      },
+      {
+        "taskId": "tatoeba-14074534-14074533",
+        "contentSha256": "ed651fce793863f1d960e8a0862d3ba90dabf97d03945e09b55cc47e1a6304ba"
+      },
+      {
+        "taskId": "tatoeba-14076420-14076422",
+        "contentSha256": "95821bfbaa2f1db2b993a4ecedae9caa1a47d6657732d527258c892c8a6180e0"
+      },
+      {
+        "taskId": "tatoeba-14076422-14076420",
+        "contentSha256": "1d99d3ed6cee762720b82adc6d6cfcc1ad5d8e90c044db9ddd297bf3aae290e5"
+      },
+      {
+        "taskId": "tatoeba-14066971-14066972",
+        "contentSha256": "3790e4a371c0059cd8c2ce2e190c575a578d614e1169e827fcb7b8768553e9a4"
+      },
+      {
+        "taskId": "tatoeba-14066972-14066971",
+        "contentSha256": "ca792bf869c4bf5b1d9fb1be1a6f4e4d9335f10b7d8669c133faffd0de200f06"
+      },
+      {
+        "taskId": "tatoeba-14074539-14074540",
+        "contentSha256": "dbd90e4abe671c18a25bc7cab89a9de7c090ba715cc7a0809f329ee13afed8c0"
+      },
+      {
+        "taskId": "tatoeba-14074540-14074539",
+        "contentSha256": "f868fde01e01b15ee3bf0a83893b3e8fc995e5bf41693ece9c0000902a042a6a"
+      },
+      {
+        "taskId": "tatoeba-1319-3135",
+        "contentSha256": "cdbd297caa0522186301235cdf5180f87faa2e51f6bbac40162acdabce65db8b"
+      },
+      {
+        "taskId": "tatoeba-3135-1319",
+        "contentSha256": "1b2cd35c10ee04d78d6d9ad9cddd53788d9c0633e2434d7c51b8317d8d28bc96"
+      },
+      {
+        "taskId": "tatoeba-1377-3193",
+        "contentSha256": "f383e61763c22910c3ae1e8d5b7657f922c043288ca0529002f1e2b3e23eebfd"
+      },
+      {
+        "taskId": "tatoeba-3193-1377",
+        "contentSha256": "f6590d3fc6abdde1b905526e4778ad9507354256c3802061f849c247ec51befc"
+      },
+      {
+        "taskId": "tatoeba-1412-3228",
+        "contentSha256": "d6448350a11745702d737cb4a218dfdcec8b8bd4002085cc7eb997a9aedca96b"
+      },
+      {
+        "taskId": "tatoeba-3228-1412",
+        "contentSha256": "5b403e0c28b6fc36192ce3cadfdfe8665bfdd91d4d7a94af630237a85fcce27d"
+      },
+      {
+        "taskId": "tatoeba-1937-3758",
+        "contentSha256": "774fa706c12d4718fa4902a520936cfed780d2f65b19b223426525724bb5b64a"
+      },
+      {
+        "taskId": "tatoeba-3758-1937",
+        "contentSha256": "4238bc577e936f2bdf50ad592096a967f3fd7d9ab01bd8059cad9a93259e9ee1"
+      },
+      {
+        "taskId": "tatoeba-1959-139524",
+        "contentSha256": "48e7cc9004024a47caf2050c466f78a530004dbd6a0c5c3a8d2beb06ac329fc3"
+      },
+      {
+        "taskId": "tatoeba-139524-1959",
+        "contentSha256": "47171b2f507282a33e62e71a3dc6774ac3d68375535db2b12fe21e54751493a7"
+      },
+      {
+        "taskId": "tatoeba-13577290-13577293",
+        "contentSha256": "cb97b328292fac1138b5adbf4659da92d5e419207b5f6dcbc63aeb299ef1c60b"
+      },
+      {
+        "taskId": "tatoeba-13577293-13577290",
+        "contentSha256": "a8368d3751f919dea7606b88ceec9ecbefa0402617ef32edc03b30df1963555b"
+      },
+      {
+        "taskId": "tatoeba-13562992-13562988",
+        "contentSha256": "997424d9daf88c72c6f388d2d26323c0e37ed3a655134bfcd275ff33909345cb"
+      },
+      {
+        "taskId": "tatoeba-13562988-13562992",
+        "contentSha256": "35600e3acbee9b597e50bf31783b23912a44ff7504db59ab941a874fd244e56d"
+      },
+      {
+        "taskId": "tatoeba-13538977-13538978",
+        "contentSha256": "6329e4a082ea7cba4ef49d84cafb474f8ba953a958ec23835b7b36398d7e7732"
+      },
+      {
+        "taskId": "tatoeba-13538978-13538977",
+        "contentSha256": "2a0163de8c422c1e017fc75a4c26d7de61c4cdec4209ab33bea3e90b414a8e98"
+      },
+      {
+        "taskId": "tatoeba-22211-9502",
+        "contentSha256": "64726263f952e797042d67bb4f25a7ed70bfd89b34f117be62fb1c7a14945c08"
+      },
+      {
+        "taskId": "tatoeba-9502-22211",
+        "contentSha256": "98a743ce064eb9e5deb41279a2475d175b6e2add55afcecb334a8a772e8f1d95"
+      },
+      {
+        "taskId": "tatoeba-1962-3776",
+        "contentSha256": "c48d8a289ab540f80af5ea7eb71f0c0eaadf6354a6b32a3661a42bc8cb9f51eb"
+      },
+      {
+        "taskId": "tatoeba-3776-1962",
+        "contentSha256": "348dbbdde363e101c02b83e5471815c6e2ae398872aa50d0e170d1e337ec1cac"
+      },
+      {
+        "taskId": "tatoeba-13885780-705013",
+        "contentSha256": "670f90dbf63ba329630e6e53080a72d6d0543234735dcf545ad6c25c090244bb"
+      },
+      {
+        "taskId": "tatoeba-705013-13885780",
+        "contentSha256": "09e3d117dedc5e05311e7000c8d78341a02518f41ff3f08b93482a3a027f9226"
+      },
+      {
+        "taskId": "tatoeba-13806242-1056093",
+        "contentSha256": "92edb5c2864d5613184804cf88de8ec135dafa9543bb81099051e137853c36ea"
+      },
+      {
+        "taskId": "tatoeba-1056093-13806242",
+        "contentSha256": "64d1ec285790cfadf16fd917b27fec9b68354501efb6a048d5c0538ca87a336d"
+      },
+      {
+        "taskId": "tatoeba-13577301-13577303",
+        "contentSha256": "5e61ee4d39d88c76878faff88e5187c0cab77f20336fa17f69d0b95eb5298d9a"
+      },
+      {
+        "taskId": "tatoeba-13577303-13577301",
+        "contentSha256": "55ff434643286a54a6d570b5f1256378cf823ac2b87fd0916a88ddb73d771075"
+      },
+      {
+        "taskId": "tatoeba-13826670-1403453",
+        "contentSha256": "dda3eb939d970f3408f1e023774d43474e65be457d6f12586a3991700159a641"
+      },
+      {
+        "taskId": "tatoeba-1403453-13826670",
+        "contentSha256": "eea0c7e1f3f8b6858da41a2ccff27b229bd50f576117abfcc586316853fd7f50"
+      },
+      {
+        "taskId": "tatoeba-30538-1591847",
+        "contentSha256": "a8879d924916b340fa9d2e2db83599ccf05e3223be353719e3f7dd4c1d2816ed"
+      },
+      {
+        "taskId": "tatoeba-1591847-30538",
+        "contentSha256": "e3d0605d604039b7b9fd1559a9064b5807eac1d5a52540b067ee3873411776f1"
+      }
+    ]
+  }
+}

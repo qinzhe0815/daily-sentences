@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "corpusVersion": "2026.10.14",
+  "status": "not-started",
+  "privacy": "Copy to ignored data/corpus-calibration.private.json; populate only with real observations and anonymous learner aliases.",
+  "observations": []
+}

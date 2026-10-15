@@ -11,6 +11,9 @@
     "dev": "node --watch server/index.mjs",
     "test": "node --test tests/*.test.js",
     "check": "node scripts/check.mjs",
-    "setup:local": "node scripts/setup-local.mjs"
+    "setup:local": "node scripts/setup-local.mjs",
+    "corpus:collect": "node scripts/collect-corpus.mjs",
+    "corpus:build": "node scripts/build-corpus.mjs",
+    "corpus:check": "node scripts/build-corpus.mjs --check"
   }
 }

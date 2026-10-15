@@ -1,4 +1,25 @@
 export const catalog = {
+  corpusUserQuality: [
+    "按用户要求视为人工检查通过；等级仍待实际学习者校准",
+    "Treated as human-check passed at the user’s direction; learner calibration pending",
+    "Considéré comme vérifié à la demande de l’utilisateur ; calibrage avec des apprenants à faire",
+  ],
+  corpusHumanQuality: [
+    "独立人工审核通过；等级仍待实际学习者校准",
+    "Human review accepted; level still awaits learner calibration",
+    "Révision humaine acceptée ; niveau à calibrer avec des apprenants",
+  ],
+  corpusSource: [
+    "本地语料（试用）",
+    "Local corpus (pilot)",
+    "Corpus local (pilote)",
+  ],
+  corpusQuality: [
+    "AI 编选；等级暂定，独立人工审核待完成",
+    "AI curated; provisional level, independent human review pending",
+    "Sélection IA ; niveau provisoire, révision humaine indépendante à faire",
+  ],
+  aiSource: ["AI 生成", "AI generated", "Généré par IA"],
   assessmentHistory: [
     "诊断记录",
     "Assessment history",
