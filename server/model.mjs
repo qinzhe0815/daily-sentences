@@ -67,12 +67,14 @@ export function validateConfig(c) {
     "INVALID_LEVEL",
   );
   ensure(["auto", "fixed"].includes(c.mode ?? "auto"), "INVALID_INPUT");
+  ensure(["auto", "local", "ai"].includes(c.questionSource ?? "auto"), "INVALID_INPUT");
   return {
     source: c.source,
     target: c.target,
     role: c.role,
     level: c.level,
     mode: c.mode ?? "auto",
+    questionSource: c.questionSource ?? "auto",
     scene: text(c.scene ?? "", 500, true),
   };
 }

@@ -1,4 +1,13 @@
 export const catalog = {
+  questionSource: ["出题来源", "Question source", "Source des questions"],
+  questionSourceAuto: ["默认／自动选择", "Default / automatic", "Par défaut / automatique"],
+  questionSourceLocal: ["本地题库", "Local question bank", "Banque locale"],
+  questionSourceAI: ["AI", "AI", "IA"],
+  questionSourceHelp: [
+    "自动选择优先使用本地题库，缺题时由 AI 补充；选择本地题库时，缺题会提示，不会自动改用 AI。",
+    "Automatic selection tries the local bank first, then AI. Local-only selection reports a shortage without switching to AI.",
+    "Le mode automatique privilégie la banque locale, puis l’IA. Le mode local signale un manque sans passer à l’IA.",
+  ],
   corpusUserQuality: [
     "按用户要求视为人工检查通过；等级仍待实际学习者校准",
     "Treated as human-check passed at the user’s direction; learner calibration pending",
@@ -418,6 +427,11 @@ export const catalog = {
   ],
 };
 const errors = {
+  CORPUS_EMPTY: [
+    "本地题库暂无符合当前条件且未练习过的题目。请在练习设置中改选默认／自动选择、AI，或调整等级、角色、场景后重试。",
+    "No unseen local question matches these settings. Choose automatic or AI in practice settings, or adjust the level, role or scene and retry.",
+    "Aucune question locale inédite ne correspond. Choisissez le mode automatique ou l’IA dans les réglages de pratique, ou modifiez le niveau, le rôle ou le thème et réessayez.",
+  ],
   AI_LANGUAGE: [
     "AI 返回的内容语言不符合当前方向，未发布点评。请重试或更换模型。",
     "The AI used the wrong content language. No feedback was published. Retry or switch models.",

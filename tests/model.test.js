@@ -30,6 +30,14 @@ test("six directions are valid; same language and invalid level rejected", () =>
     validateConfig({ source: "zh", target: "en", role: "daily", level: 6 }),
   );
 });
+test("question source defaults to auto and rejects unsupported selections", () => {
+  const config = { source: "zh", target: "en", role: "daily", level: 2 };
+  assert.equal(validateConfig(config).questionSource, "auto");
+  for (const questionSource of ["auto", "local", "ai"])
+    assert.equal(validateConfig({ ...config, questionSource }).questionSource, questionSource);
+  for (const questionSource of ["other", "", false])
+    assert.throws(() => validateConfig({ ...config, questionSource }), /INVALID_INPUT/);
+});
 test("five first answers slowly adjust; revisions, reviews and fixed mode excluded", () => {
   const c = { config: { level: 3, mode: "auto" }, window: [], adjustments: [] };
   updateDifficulty(c, {

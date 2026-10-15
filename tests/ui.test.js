@@ -1,10 +1,23 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { initialState } from "../server/model.mjs";
-import { shell, esc, newForm } from "../public/views.js";
+import { shell, esc, newForm, editForm } from "../public/views.js";
 import { catalog, setLanguage, errorMessage } from "../public/i18n.js";
 import { Dictation } from "../public/speech.js";
 globalThis.document = { documentElement: { lang: "zh" } };
+test("practice settings offer automatic, local and AI sources with legacy default", () => {
+  setLanguage("zh");
+  const c = { id: "source-chat", title: "", config: { source: "zh", target: "en", role: "daily", level: 2, mode: "fixed", scene: "" } };
+  let html = editForm(c, initialState());
+  assert.match(html, /name="questionSource"/);
+  assert.match(html, /value="auto" selected[^>]*>默认／自动选择/);
+  for (const value of ["local", "ai"]) {
+    c.config.questionSource = value;
+    html = editForm(c, initialState());
+    assert.match(html, new RegExp(`value="${value}" selected`));
+  }
+  assert.match(errorMessage("CORPUS_EMPTY"), /本地题库/);
+});
 Object.defineProperty(globalThis, "navigator", {
   value: { language: "fr-FR" },
   configurable: true,

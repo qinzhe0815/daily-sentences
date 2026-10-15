@@ -96,6 +96,7 @@ export class Service {
         s.profiles[input.target ?? s.settings.target]?.level ??
         2,
       mode: input.mode ?? "auto",
+      questionSource: input.questionSource ?? "auto",
       scene: input.scene ?? "",
     });
     const c = {
@@ -286,6 +287,7 @@ export class Service {
             : null;
           ensure(!c.activeDiagnosticId || d, "DIAGNOSTIC_REQUIRED");
           const config = structuredClone(d?.config ?? c.config);
+          config.questionSource = c.config.questionSource ?? "auto";
           if (d?.questionIds.length) {
             const previous = this.question(s, d.questionIds.at(-1));
             const feedback = previous.attempts.at(-1)?.feedback;
@@ -327,7 +329,7 @@ export class Service {
           };
         },
         async (ctx) => {
-          const local = this.corpus?.select({
+          const local = ctx.config.questionSource === "ai" ? null : this.corpus?.select({
             config: ctx.config,
             purpose: diagnosticId ? "diagnostic" : "practice",
             seen: [
@@ -342,6 +344,7 @@ export class Service {
             this.reservedFamilies.add(reservedFamily);
             return local;
           }
+          ensure(ctx.config.questionSource !== "local", "CORPUS_EMPTY", 409);
           const result = await this.ai.call("generate", {
             config: ctx.config,
             recent: ctx.recent,
@@ -352,9 +355,13 @@ export class Service {
             metadata: {
               ...result.metadata,
               origin: "ai-generated",
-              fallbackReason: this.corpus
-                ? "no-matching-local-task"
-                : "corpus-disabled",
+              ...(ctx.config.questionSource === "ai"
+                ? {}
+                : {
+                    fallbackReason: this.corpus
+                      ? "no-matching-local-task"
+                      : "corpus-disabled",
+                  }),
             },
           };
         },

@@ -54,6 +54,91 @@ const cfg = {
   mode: "fixed",
   skipDiagnostic: true,
 };
+test("source selection changes only the next question and survives backup restore", async (t) => {
+  const { service, store, calls } = fixture(t);
+  const c = await service.createConversation(cfg);
+  const first = store.read().questions[0];
+  service.updateConversation(c.id, { config: { questionSource: "ai" } });
+  assert.equal(store.read().conversations[0].currentQuestionId, first.id);
+  await service.generate(c.id, "force-ai");
+  const generated = store.read().questions.at(-1);
+  assert.equal(generated.metadata.origin, "ai-generated");
+  assert.equal(generated.snapshot.questionSource, "ai");
+  assert.equal(calls.filter(c => c.task === "generate").length, 1);
+  assert.deepEqual(store.read().questions[0], first);
+  service.updateConversation(c.id, { config: { questionSource: "local" } });
+  await service.generate(c.id, "force-local");
+  assert.equal(store.read().questions.at(-1).metadata.provider, "corpus");
+  assert.equal(calls.filter(c => c.task === "generate").length, 1);
+  const backup = store.export();
+  validateBackup(backup);
+  store.restore(backup.state);
+  assert.equal(store.read().conversations[0].config.questionSource, "local");
+  const legacy = structuredClone(backup);
+  for (const conversation of legacy.state.conversations) delete conversation.config.questionSource;
+  for (const question of legacy.state.questions) delete question.snapshot.questionSource;
+  assert.doesNotThrow(() => validateBackup(legacy));
+});
+test("local-only shortage preserves current question and never calls AI; switching to auto recovers", async (t) => {
+  const { service, store, calls } = fixture(t);
+  const task = new Corpus().tasks.find(t => t.sourceLang === "zh" && t.targetLang === "en" && t.level === 2 && t.split === "practice" && t.roles.includes("daily"));
+  service.corpus = new Corpus({ version: "one", tasks: [task] });
+  const c = await service.createConversation({ ...cfg, questionSource: "local" });
+  const first = store.read().questions[0];
+  await assert.rejects(service.generate(c.id, "empty-local"), /CORPUS_EMPTY/);
+  assert.equal(calls.length, 0);
+  assert.equal(store.read().questions.length, 1);
+  assert.equal(store.read().conversations[0].currentQuestionId, first.id);
+  assert.equal(store.read().conversations[0].generationError, "CORPUS_EMPTY");
+  service.updateConversation(c.id, { config: { questionSource: "auto" } });
+  await service.generate(c.id, "auto-recovery");
+  assert.equal(calls[0].task, "generate");
+  assert.equal(store.read().conversations[0].generationError, undefined);
+});
+test("new conversations and diagnostic next questions honor explicit AI source", async (t) => {
+  const { service, store, calls } = fixture(t);
+  await service.createConversation({ ...cfg, questionSource: "ai" });
+  assert.equal(store.read().questions[0].metadata.origin, "ai-generated");
+  const c = await service.createConversation({ ...cfg, skipDiagnostic: false });
+  const q = store.read().questions.at(-1);
+  await service.submit(q.id, { answer: q.reference, requestId: "source-diag-answer" });
+  service.updateConversation(c.id, { config: { questionSource: "ai" } });
+  await service.generate(c.id, "source-diag-next", q.diagnosticId);
+  const next = store.read().questions.at(-1);
+  assert.equal(next.metadata.origin, "ai-generated");
+  assert.equal(next.snapshot.questionSource, "ai");
+  assert.equal(calls.filter(c => c.task === "generate").length, 2);
+});
+test("changing source during generation preserves its snapshot and applies to the following request", async (t) => {
+  const { service, store } = fixture(t);
+  const c = await service.createConversation(cfg);
+  service.updateConversation(c.id, { config: { questionSource: "ai" } });
+  const originalCall = service.ai.call;
+  let release;
+  service.ai.call = async (...args) => {
+    await new Promise(resolve => { release = resolve; });
+    return originalCall(...args);
+  };
+  const pending = service.generate(c.id, "pending-source");
+  assert.equal(typeof release, "function");
+  service.updateConversation(c.id, { config: { questionSource: "local" } });
+  release();
+  await pending;
+  assert.equal(store.read().questions.at(-1).snapshot.questionSource, "ai");
+  await service.generate(c.id, "after-pending-source");
+  assert.equal(store.read().questions.at(-1).snapshot.questionSource, "local");
+});
+test("AI-only failure preserves the current question without using available local tasks", async (t) => {
+  const { service, store } = fixture(t);
+  const c = await service.createConversation(cfg);
+  const first = store.read().questions[0];
+  service.updateConversation(c.id, { config: { questionSource: "ai" } });
+  service.ai.call = async () => { const error = new Error("AI_NOT_CONFIGURED"); error.code = "AI_NOT_CONFIGURED"; throw error; };
+  await assert.rejects(service.generate(c.id, "ai-failure"), /AI_NOT_CONFIGURED/);
+  assert.equal(store.read().questions.length, 1);
+  assert.equal(store.read().conversations[0].currentQuestionId, first.id);
+  assert.equal(store.read().conversations[0].generationError, "AI_NOT_CONFIGURED");
+});
 test("default service serves actual local corpus and sends rubric to grading without exposing answers", async (t) => {
   const { service, store, calls } = fixture(t);
   const c = await service.createConversation(cfg);
