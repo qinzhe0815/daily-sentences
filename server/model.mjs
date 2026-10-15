@@ -67,12 +67,14 @@ export function validateConfig(c) {
     "INVALID_LEVEL",
   );
   ensure(["auto", "fixed"].includes(c.mode ?? "auto"), "INVALID_INPUT");
+  ensure(["auto", "local", "ai"].includes(c.questionSource ?? "auto"), "INVALID_INPUT");
   return {
     source: c.source,
     target: c.target,
     role: c.role,
     level: c.level,
     mode: c.mode ?? "auto",
+    questionSource: c.questionSource ?? "auto",
     scene: text(c.scene ?? "", 500, true),
   };
 }
@@ -109,6 +111,7 @@ export function publicState(state) {
   const s = structuredClone(state);
   for (const q of s.questions) {
     delete q.reference;
+    delete q.rubric;
     const diagnosticHidden =
       q.diagnosticId &&
       s.diagnostics.find((d) => d.id === q.diagnosticId)?.status !==
@@ -116,8 +119,14 @@ export function publicState(state) {
     if (
       diagnosticHidden ||
       !q.attempts.some((a) => a.status === "completed" && a.feedback)
-    )
+    ) {
       q.knowledge = [];
+      delete q.provenance;
+      if (q.metadata) {
+        delete q.metadata.taskId;
+        delete q.metadata.groupId;
+      }
+    }
     if (
       q.diagnosticId &&
       s.diagnostics.find((d) => d.id === q.diagnosticId)?.status !== "completed"
@@ -264,6 +273,45 @@ export function validateBackup(b) {
         typeof q.drafts.followup === "string",
       "BACKUP_INVALID",
     );
+    if (q.rubric !== undefined || q.provenance !== undefined) {
+      const list = (values, max) =>
+        Array.isArray(values) &&
+        values.length > 0 &&
+        values.length <= max &&
+        values.every(
+          (v) => typeof v === "string" && v.trim() && v.length <= 4000,
+        );
+      ensure(
+        q.rubric &&
+          list(q.rubric.references, 5) &&
+          list(q.rubric.requiredMeaning, 12),
+        "BACKUP_INVALID",
+      );
+      const licenses = {
+        "CC BY 2.0 FR": "https://creativecommons.org/licenses/by/2.0/fr/",
+        "CC0 1.0": "https://creativecommons.org/publicdomain/zero/1.0/",
+      };
+      ensure(
+        Array.isArray(q.provenance) && q.provenance.length === 2,
+        "BACKUP_INVALID",
+      );
+      for (const p of q.provenance)
+        ensure(
+          p &&
+            Number.isSafeInteger(p.sentenceId) &&
+            p.sentenceId > 0 &&
+            typeof p.author === "string" &&
+            p.author.trim() &&
+            p.author.length <= 300 &&
+            LANGUAGES.includes(p.language) &&
+            Object.hasOwn(licenses, p.license) &&
+            p.url === `https://tatoeba.org/en/sentences/show/${p.sentenceId}` &&
+            p.licenseUrl === licenses[p.license] &&
+            typeof p.retrievedAt === "string" &&
+            Number.isFinite(Date.parse(p.retrievedAt)),
+          "BACKUP_INVALID",
+        );
+    }
     ensure(!q.diagnosticId || diag.has(q.diagnosticId), "BACKUP_INVALID");
     for (const a of q.attempts) {
       register(a);

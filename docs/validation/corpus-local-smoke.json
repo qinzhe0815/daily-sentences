@@ -1,0 +1,200 @@
+{
+  "at": "2026-10-14T09:58:19.883Z",
+  "model": "qwen3.5:4b-q4_K_M",
+  "note": "Local corpus + real model protocol smoke only. Reference answers are supplied as inputs; this does not prove translation quality, independent human review, level calibration or scoring accuracy.",
+  "samples": [
+    {
+      "direction": "zh-en",
+      "taskId": "tatoeba-335027-1462",
+      "source": "我妈妈英语说得不太好。",
+      "reference": "My mom doesn't speak English very well.",
+      "feedback": {
+        "id": "43984699-9464-4e26-a361-d54f423fef42",
+        "valid": true,
+        "overall": "学习者的翻译完全准确，精准传达了原句的核心含义。句子结构清晰，语法正确，语气自然地道，完美契合日常口语场景。",
+        "strength": "译文简洁明了，准确捕捉了原句中关于母亲英语能力有限的核心信息，且用词地道，符合目标语习惯。",
+        "issues": [],
+        "references": [
+          "My mom doesn't speak English very well."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v7",
+          "scoringVersion": "40-25-20-15-v1"
+        },
+        "createdAt": "2026-10-14T09:58:28.755Z"
+      },
+      "ok": true,
+      "elapsedMs": 8549
+    },
+    {
+      "direction": "zh-fr",
+      "taskId": "tatoeba-501352-3197",
+      "source": "我在这些论坛上没有帐号。",
+      "reference": "Je n’ai pas de compte sur ces forums.",
+      "feedback": {
+        "id": "da7bc397-f952-4f56-9f27-cfc62076633d",
+        "valid": true,
+        "overall": "学习者的译文完全准确地传达了原文的含义，语法结构正确，用词地道且符合法语表达习惯。",
+        "strength": "译文精准对应了中文原句的否定含义（没有帐号），句式结构与参考译文高度一致，展现了良好的语言掌握能力。",
+        "issues": [],
+        "references": [
+          "Je n'ai pas de compte sur ces forums."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v7",
+          "scoringVersion": "40-25-20-15-v1"
+        },
+        "createdAt": "2026-10-14T09:58:34.060Z"
+      },
+      "ok": true,
+      "elapsedMs": 5303
+    },
+    {
+      "direction": "en-zh",
+      "taskId": "tatoeba-14042166-14042780",
+      "source": "Isn't this room a bit too warm?",
+      "reference": "这间屋子的温度是不是有点高了？",
+      "feedback": {
+        "id": "724f60af-5472-46a2-ade5-9cf613b6350c",
+        "valid": true,
+        "overall": "The translation is an excellent match for the source text, capturing both the literal meaning and the conversational tone perfectly. It accurately conveys the speaker's rhetorical question about the room's temperature without any errors in grammar or vocabulary.",
+        "strength": "The translation successfully mirrors the original sentence structure and word choice, making it sound very natural in Chinese while retaining the exact nuance of the English question.",
+        "issues": [],
+        "references": [
+          "这间屋子的温度是不是有点高了？"
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v7",
+          "scoringVersion": "40-25-20-15-v1"
+        },
+        "createdAt": "2026-10-14T09:58:39.945Z"
+      },
+      "ok": true,
+      "elapsedMs": 5883
+    },
+    {
+      "direction": "en-fr",
+      "taskId": "tatoeba-1309-3125",
+      "source": "I'll call them tomorrow when I come back.",
+      "reference": "Je les appellerai demain quand je reviendrai.",
+      "feedback": {
+        "id": "0616420b-f456-421a-a130-27d3c9a25793",
+        "valid": true,
+        "overall": "The translation is an exact match to the reference and captures the intended meaning perfectly. The speaker's future action (calling) and the condition (returning tomorrow) are rendered accurately in French with appropriate tense usage and word order.",
+        "strength": "The answer demonstrates a complete understanding of the source sentence, correctly translating the future tense ('will call', 'will return') and the temporal relationship between the two clauses. The vocabulary choice is precise and natural for a daily conversation context.",
+        "issues": [],
+        "references": [
+          "Je les appellerai demain quand je reviendrai."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v7",
+          "scoringVersion": "40-25-20-15-v1"
+        },
+        "createdAt": "2026-10-14T09:58:46.404Z"
+      },
+      "ok": true,
+      "elapsedMs": 6460
+    },
+    {
+      "direction": "fr-zh",
+      "taskId": "tatoeba-3177-501336",
+      "source": "Quand je me suis réveillé j'étais triste.",
+      "reference": "当我醒过来的时候，我很难过。",
+      "feedback": {
+        "id": "3339788e-7b01-46b2-8787-48de8bcc9803",
+        "valid": true,
+        "overall": "La traduction fournie est une reproduction fidèle et naturelle de la phrase source française. L'élève a correctement identifié le sujet, l'action principale (se réveiller) et l'état émotionnel résultant. Le registre de langue quotidien est respecté, et aucune erreur grammaticale ou sémantique majeure n'est présente. La structure de la phrase en chinois correspond parfaitement à l'intention originale.",
+        "strength": "L'élève a maîtrisé les verbes temporels appropriés pour exprimer le passé («  woke up » traduit par «   wake up/awake » dans ce contexte) et les états émotionnels. La syntaxe est fluide et naturelle, démontrant une bonne compréhension des bases de la phrase.",
+        "issues": [],
+        "references": [
+          "当我醒过来的时候，我很难过。",
+          "我醒来时感到难过。"
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v7",
+          "scoringVersion": "40-25-20-15-v1"
+        },
+        "createdAt": "2026-10-14T09:58:54.618Z"
+      },
+      "ok": true,
+      "elapsedMs": 8213
+    },
+    {
+      "direction": "fr-en",
+      "taskId": "tatoeba-14079527-14079526",
+      "source": "L'hôtel propose un buffet pour le petit déjeuner.",
+      "reference": "The hotel offers a buffet for breakfast.",
+      "feedback": {
+        "id": "472c7faa-75ac-4e57-b6b5-fb6affa98141",
+        "valid": true,
+        "overall": "La traduction fournie est une reproduction fidèle et grammaticalement correcte de la phrase source. Elle capture parfaitement le sens original sans aucune omission ni ajout inutile. Le vocabulaire utilisé est approprié au registre courant du français vers l'anglais, et la structure de la phrase respecte les normes de la langue cible.",
+        "strength": "La traduction est concise, claire et naturelle. L'utilisation du verbe 'offers' et du nom 'buffet' correspond exactement à l'intention de la phrase source, créant une équivalence parfaite en termes de sens et de style.",
+        "issues": [],
+        "references": [
+          "The hotel offers a buffet for breakfast."
+        ],
+        "dimensions": {
+          "meaning": 100,
+          "grammar": 100,
+          "vocabulary": 100,
+          "naturalness": 100
+        },
+        "total": 100,
+        "metadata": {
+          "model": "qwen3.5:4b-q4_K_M",
+          "provider": "local",
+          "promptVersion": "translation-v7",
+          "scoringVersion": "40-25-20-15-v1"
+        },
+        "createdAt": "2026-10-14T09:59:01.770Z"
+      },
+      "ok": true,
+      "elapsedMs": 7152
+    }
+  ]
+}

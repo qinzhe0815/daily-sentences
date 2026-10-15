@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "provider": "Tatoeba official API v1",
+  "apiDocumentation": "https://api.tatoeba.org/openapi.json",
+  "requests": [
+    {
+      "file": "eng-cmn-3-7.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=3-7",
+      "retrievedAt": "2026-10-14T09:36:05.190Z",
+      "sha256": "08c2b07ca4264d2af8bc4243daef87afb15bffd3662d37a153f382e11dec44c7",
+      "sentences": 50
+    },
+    {
+      "file": "eng-cmn-8-12.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=8-12",
+      "retrievedAt": "2026-10-14T09:36:08.956Z",
+      "sha256": "838ced30dbbe32de685d1636aa194f405820def24419673906892a748f8de9c3",
+      "sentences": 50
+    },
+    {
+      "file": "eng-cmn-13-18.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=13-18",
+      "retrievedAt": "2026-10-14T09:36:13.298Z",
+      "sha256": "198c741d100c2439cfb74f917d0e36923dcbba3c6b76b16a001c344dcfbbfcee",
+      "sentences": 50
+    },
+    {
+      "file": "eng-cmn-19-25.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=19-25",
+      "retrievedAt": "2026-10-14T09:36:17.421Z",
+      "sha256": "da6f255000030577426d189c498e9a3f8f46c7a713f462be5553e41a3a242c63",
+      "sentences": 50
+    },
+    {
+      "file": "eng-cmn-26-45.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=26-45",
+      "retrievedAt": "2026-10-14T09:36:22.404Z",
+      "sha256": "4dd7f618d4984c2d7932585f2fd3e241f10fcd8f214ba07fbd96686d93ad9b43",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-3-7.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=3-7",
+      "retrievedAt": "2026-10-14T09:36:25.415Z",
+      "sha256": "61b743fc561c75baed3f3454e2471e37d2daacdf1735a1ed30e54bca924ddf22",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-8-12.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=8-12",
+      "retrievedAt": "2026-10-14T09:36:27.987Z",
+      "sha256": "a599ff3ede5ce3ccd49945e8d3150b6e00cb6f79e552ecc3aa5dc4f183d61ddf",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-13-18.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=13-18",
+      "retrievedAt": "2026-10-14T09:36:30.622Z",
+      "sha256": "6a6f38d35c46550af754c9a3a5c5272674a7de34addbb6a11d64a6269d79751e",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-19-25.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=19-25",
+      "retrievedAt": "2026-10-14T09:36:35.211Z",
+      "sha256": "801db4020cc4594370e17351b47df43a3b5c318d94c8cbdac7c1247cd0ec393b",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-26-45.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=26-45",
+      "retrievedAt": "2026-10-14T09:36:39.404Z",
+      "sha256": "1ff260335b6284b3c34f1f31685fb8893af3ef319d47602f9eed8dc280c1cc24",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-3-7.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=3-7",
+      "retrievedAt": "2026-10-14T09:36:43.381Z",
+      "sha256": "9de0ee3beeb9820c1b3f1e6b8c0e1dae74b9a183d7284eddd881277a573b73de",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-8-12.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=8-12",
+      "retrievedAt": "2026-10-14T09:36:47.182Z",
+      "sha256": "8a8d75c3129bb6c26c0b47bb74b8890dd356894647f5c812be4895f1daee20ab",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-13-18.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=13-18",
+      "retrievedAt": "2026-10-14T09:36:51.272Z",
+      "sha256": "325e4eca9991090ea42b877608d8d8bb94d9824f823000853a8d63596f9fc52d",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-19-25.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=19-25",
+      "retrievedAt": "2026-10-14T09:36:55.117Z",
+      "sha256": "79ffa577449c97e2a2f3be6c944b32cae179e699f4b3fe12888a8694c4e08c0b",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-26-45.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=-created&word_count=26-45",
+      "retrievedAt": "2026-10-14T09:36:59.127Z",
+      "sha256": "68a6c97b8dd462f7ab58a86220cb06c1a64e0df44e6bb6db192dda56e586d894",
+      "sentences": 50
+    },
+    {
+      "file": "eng-cmn-3-7-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=3-7",
+      "retrievedAt": "2026-10-14T09:37:28.152Z",
+      "sha256": "faea4ab6b6dcfdcba43c99fea5ce7565772b75b8c9d95020aff1784cd471b35c",
+      "sentences": 50
+    },
+    {
+      "file": "eng-cmn-8-12-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=8-12",
+      "retrievedAt": "2026-10-14T09:37:31.705Z",
+      "sha256": "cbba6888be574c4d94d4275e26f0af9f610bfeb8328ac27871c2cc2cefa95642",
+      "sentences": 50
+    },
+    {
+      "file": "eng-cmn-13-18-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=13-18",
+      "retrievedAt": "2026-10-14T09:37:35.097Z",
+      "sha256": "47cfc0e853c17dc15507beed9e2aeb483b8a75ab6aaf3e2ee4e8d1fcc8467c47",
+      "sentences": 50
+    },
+    {
+      "file": "eng-cmn-19-25-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=19-25",
+      "retrievedAt": "2026-10-14T09:37:38.317Z",
+      "sha256": "f8e5d3e440c0f4062da0e2dbcfe8c447f29e4e970ee78cb0f9c9ed67cdc7ffe4",
+      "sentences": 50
+    },
+    {
+      "file": "eng-cmn-26-45-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=26-45",
+      "retrievedAt": "2026-10-14T09:37:41.901Z",
+      "sha256": "51c78709926e6d23d33a85187adae62a496dbeb9c338ea4a015f62a61815c669",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-3-7-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=3-7",
+      "retrievedAt": "2026-10-14T09:37:44.401Z",
+      "sha256": "f4a0a02d92e8a47f5937ee08607e1411dd267da950791823b2cc067dbf003c93",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-8-12-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=8-12",
+      "retrievedAt": "2026-10-14T09:37:47.143Z",
+      "sha256": "8502d7d2508309da8b551c3779cea6c677bde4ea3aa81e494c1d2b83e744e6e8",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-13-18-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=13-18",
+      "retrievedAt": "2026-10-14T09:37:49.768Z",
+      "sha256": "a9155320c63b3f93c487175ad941c99d1f705a44a0300f3acac1e4bdeb3a5ec1",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-19-25-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=19-25",
+      "retrievedAt": "2026-10-14T09:37:52.503Z",
+      "sha256": "2c61a1ddf637c0e99d3a37f43ba9a8781c0e3274859e3ee29feab54e7259041e",
+      "sentences": 50
+    },
+    {
+      "file": "fra-cmn-26-45-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=fra&trans%3Alang=cmn&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=26-45",
+      "retrievedAt": "2026-10-14T09:37:55.023Z",
+      "sha256": "95fa45cb765e50f3fd8b67c600b0669d7b26833cdacbd25e468dbf28b50fe1e9",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-3-7-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=3-7",
+      "retrievedAt": "2026-10-14T09:37:58.032Z",
+      "sha256": "30719e00d353825e77368a0681120be813c3c545b9ac9bf4dd98eb2a68bb6b18",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-8-12-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=8-12",
+      "retrievedAt": "2026-10-14T09:38:01.125Z",
+      "sha256": "687a449ee0ef4065ca1d29fa6d518663b781669e467e6d5de43fb5a094ebbcb6",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-13-18-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=13-18",
+      "retrievedAt": "2026-10-14T09:38:04.222Z",
+      "sha256": "78f01f470165e0e51ff3abdef497596ead3cf537b4a6f5bb65c0db0fd8199029",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-19-25-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=19-25",
+      "retrievedAt": "2026-10-14T09:38:07.315Z",
+      "sha256": "aafb51e0ada7dc1a9e50b399ae2199a6d4d9f8a75d2be81a93a582ba739c0998",
+      "sentences": 50
+    },
+    {
+      "file": "eng-fra-26-45-recent.json",
+      "url": "https://api.tatoeba.org/v1/sentences?lang=eng&trans%3Alang=fra&trans%3Ais_direct=yes&is_unapproved=no&is_orphan=no&trans%3Ais_unapproved=no&trans%3Ais_orphan=no&showtrans=matching&limit=60&sort=created&word_count=26-45",
+      "retrievedAt": "2026-10-14T09:38:10.247Z",
+      "sha256": "bbfb2a630268863b54df0016a69fa866912ad42f94ff2ad0d2fdedc296b8b987",
+      "sentences": 50
+    }
+  ]
+}

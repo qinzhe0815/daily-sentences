@@ -11,10 +11,13 @@ import {
   ROLES,
   validateBackup,
 } from "./model.mjs";
+import { Corpus } from "./corpus.mjs";
 export class Service {
-  constructor(store, ai) {
+  constructor(store, ai, { corpus = new Corpus() } = {}) {
     this.store = store;
     this.ai = ai;
+    this.corpus = corpus;
+    this.reservedFamilies = new Set();
     this.inflight = new Set();
     this.objectLocks = new Set();
   }
@@ -93,6 +96,7 @@ export class Service {
         s.profiles[input.target ?? s.settings.target]?.level ??
         2,
       mode: input.mode ?? "auto",
+      questionSource: input.questionSource ?? "auto",
       scene: input.scene ?? "",
     });
     const c = {
@@ -259,122 +263,162 @@ export class Service {
     }
   }
   async generate(cid, requestId, diagnosticId = null) {
-    await this.job(
-      requestId,
-      "generate",
-      cid,
-      (s) => {
-        const c = this.conversation(s, cid);
-        ensure(c.generationStatus !== "pending", "BUSY", 409);
-        const active =
-          c.currentQuestionId && this.question(s, c.currentQuestionId);
-        ensure(
-          !active ||
-            ![...active.attempts, ...active.followups].some(
-              (a) => a.status === "pending",
-            ),
-          "BUSY",
-          409,
-        );
-        const d = diagnosticId
-          ? s.diagnostics.find((d) => d.id === diagnosticId)
-          : null;
-        ensure(!c.activeDiagnosticId || d, "DIAGNOSTIC_REQUIRED");
-        const config = structuredClone(d?.config ?? c.config);
-        if (d?.questionIds.length) {
-          const previous = this.question(s, d.questionIds.at(-1));
-          const feedback = previous.attempts.at(-1)?.feedback;
-          if (feedback?.valid)
-            config.level = Math.max(
-              1,
-              Math.min(
-                5,
-                previous.snapshot.level +
-                  (feedback.total >= 85 ? 1 : feedback.total < 60 ? -1 : 0),
-              ),
-            );
-        }
-        if (!d && config.mode === "auto") {
-          const roll = Math.random();
-          if (roll < 0.15) config.level = Math.max(1, config.level - 1);
-          else if (roll > 0.85) config.level = Math.min(5, config.level + 1);
-        }
-        if (d) {
+    let reservedFamily;
+    try {
+      await this.job(
+        requestId,
+        "generate",
+        cid,
+        (s) => {
+          const c = this.conversation(s, cid);
+          ensure(c.generationStatus !== "pending", "BUSY", 409);
+          const active =
+            c.currentQuestionId && this.question(s, c.currentQuestionId);
           ensure(
-            d.status === "active" && d.questionIds.length < 5,
-            "CONFLICT",
+            !active ||
+              ![...active.attempts, ...active.followups].some(
+                (a) => a.status === "pending",
+              ),
+            "BUSY",
             409,
           );
-          d.busy = true;
-          delete d.error;
-        }
-        c.generationStatus = "pending";
-        delete c.generationError;
-        return {
-          cid,
-          diagnosticId,
-          config,
-          epoch: c.epoch || 0,
-          recent: s.questions
-            .filter((q) => q.conversationId === cid)
-            .slice(-20)
-            .map((q) => ({ source: q.source, knowledge: q.knowledge })),
-        };
-      },
-      (ctx) =>
-        this.ai.call("generate", {
-          config: ctx.config,
-          recent: ctx.recent,
-          diagnostic: !!diagnosticId,
-        }),
-      (s, result, ctx) => {
-        ensure(
-          !ctx.recent.some(
-            (q) =>
-              q.source.trim().toLocaleLowerCase() ===
-              result.source.trim().toLocaleLowerCase(),
-          ),
-          "AI_DUPLICATE",
-          502,
-        );
-        const c = this.conversation(s, cid);
-        const q = {
-          id: id(),
-          conversationId: cid,
-          diagnosticId,
-          epoch: ctx.epoch,
-          source: result.source,
-          context: result.context,
-          reference: result.reference,
-          knowledge: result.knowledge,
-          snapshot: ctx.config,
-          metadata: result.metadata,
-          attempts: [],
-          followups: [],
-          drafts: { answer: "", followup: "" },
-          createdAt: now(),
-        };
-        s.questions.push(q);
-        c.generationStatus = "completed";
-        c.updatedAt = now();
-        if (diagnosticId) {
-          const d = s.diagnostics.find((d) => d.id === diagnosticId);
-          d.questionIds.push(q.id);
-          d.config.level = ctx.config.level;
-          d.busy = false;
-        } else c.currentQuestionId = q.id;
-      },
-      (s, error) => {
-        const c = this.conversation(s, cid);
-        c.generationStatus = "failed";
-        c.generationError = error;
-        if (diagnosticId) {
-          const d = s.diagnostics.find((d) => d.id === diagnosticId);
-          d.busy = false;
-          d.error = error;
-        }
-      },
-    );
+          const d = diagnosticId
+            ? s.diagnostics.find((d) => d.id === diagnosticId)
+            : null;
+          ensure(!c.activeDiagnosticId || d, "DIAGNOSTIC_REQUIRED");
+          const config = structuredClone(d?.config ?? c.config);
+          config.questionSource = c.config.questionSource ?? "auto";
+          if (d?.questionIds.length) {
+            const previous = this.question(s, d.questionIds.at(-1));
+            const feedback = previous.attempts.at(-1)?.feedback;
+            if (feedback?.valid)
+              config.level = Math.max(
+                1,
+                Math.min(
+                  5,
+                  previous.snapshot.level +
+                    (feedback.total >= 85 ? 1 : feedback.total < 60 ? -1 : 0),
+                ),
+              );
+          }
+          if (!d && config.mode === "auto") {
+            const roll = Math.random();
+            if (roll < 0.15) config.level = Math.max(1, config.level - 1);
+            else if (roll > 0.85) config.level = Math.min(5, config.level + 1);
+          }
+          if (d) {
+            ensure(
+              d.status === "active" && d.questionIds.length < 5,
+              "CONFLICT",
+              409,
+            );
+            d.busy = true;
+            delete d.error;
+          }
+          c.generationStatus = "pending";
+          delete c.generationError;
+          return {
+            cid,
+            diagnosticId,
+            config,
+            epoch: c.epoch || 0,
+            recent: s.questions
+              .filter((q) => q.conversationId === cid)
+              .slice(-20)
+              .map((q) => ({ source: q.source, knowledge: q.knowledge })),
+          };
+        },
+        async (ctx) => {
+          const local = ctx.config.questionSource === "ai" ? null : this.corpus?.select({
+            config: ctx.config,
+            purpose: diagnosticId ? "diagnostic" : "practice",
+            seen: [
+              ...this.store.read().questions,
+              ...[...this.reservedFamilies].map((groupId) => ({
+                metadata: { groupId },
+              })),
+            ],
+          });
+          if (local) {
+            reservedFamily = local.metadata.groupId;
+            this.reservedFamilies.add(reservedFamily);
+            return local;
+          }
+          ensure(ctx.config.questionSource !== "local", "CORPUS_EMPTY", 409);
+          const result = await this.ai.call("generate", {
+            config: ctx.config,
+            recent: ctx.recent,
+            diagnostic: !!diagnosticId,
+          });
+          return {
+            ...result,
+            metadata: {
+              ...result.metadata,
+              origin: "ai-generated",
+              ...(ctx.config.questionSource === "ai"
+                ? {}
+                : {
+                    fallbackReason: this.corpus
+                      ? "no-matching-local-task"
+                      : "corpus-disabled",
+                  }),
+            },
+          };
+        },
+        (s, result, ctx) => {
+          ensure(
+            !ctx.recent.some(
+              (q) =>
+                q.source.trim().toLocaleLowerCase() ===
+                result.source.trim().toLocaleLowerCase(),
+            ),
+            "AI_DUPLICATE",
+            502,
+          );
+          const c = this.conversation(s, cid);
+          const q = {
+            id: id(),
+            conversationId: cid,
+            diagnosticId,
+            epoch: ctx.epoch,
+            source: result.source,
+            context: result.context,
+            reference: result.reference,
+            knowledge: result.knowledge,
+            snapshot: ctx.config,
+            metadata: result.metadata,
+            ...(result.rubric
+              ? { rubric: result.rubric, provenance: result.provenance }
+              : {}),
+            attempts: [],
+            followups: [],
+            drafts: { answer: "", followup: "" },
+            createdAt: now(),
+          };
+          s.questions.push(q);
+          c.generationStatus = "completed";
+          c.updatedAt = now();
+          if (diagnosticId) {
+            const d = s.diagnostics.find((d) => d.id === diagnosticId);
+            d.questionIds.push(q.id);
+            d.config.level = ctx.config.level;
+            d.busy = false;
+          } else c.currentQuestionId = q.id;
+        },
+        (s, error) => {
+          const c = this.conversation(s, cid);
+          c.generationStatus = "failed";
+          c.generationError = error;
+          if (diagnosticId) {
+            const d = s.diagnostics.find((d) => d.id === diagnosticId);
+            d.busy = false;
+            d.error = error;
+          }
+        },
+      );
+    } finally {
+      if (reservedFamily) this.reservedFamilies.delete(reservedFamily);
+    }
   }
   async submit(qid, input) {
     const answer = text(input.answer);
@@ -460,6 +504,7 @@ export class Service {
             source: q.source,
             context: q.context,
             snapshot: q.snapshot,
+            ...(q.rubric ? { rubric: structuredClone(q.rubric) } : {}),
           },
           answer: a.answer,
         };
@@ -540,6 +585,7 @@ export class Service {
             source: q.source,
             context: q.context,
             snapshot: q.snapshot,
+            ...(q.rubric ? { rubric: structuredClone(q.rubric) } : {}),
           },
           answer: a.answer,
           feedback: a.feedback,

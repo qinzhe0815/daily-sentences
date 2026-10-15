@@ -87,7 +87,7 @@ async function fixture(t) {
     model: "test-only",
     apiKey: "test-secret",
   });
-  const service = new Service(store, ai);
+  const service = new Service(store, ai, { corpus: null });
   t.after(async () => {
     await new Promise((r) => server.close(r));
     store.close();

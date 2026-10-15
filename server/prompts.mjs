@@ -197,6 +197,14 @@ export function taskPrompt(task, input) {
     };
     instruction = tasks[task] || instructions[task];
   }
+  if (task === "grade" && input.question?.rubric) {
+    instruction +=
+      config.source === "fr"
+        ? " Les références et critères de sens de question.rubric sont indicatifs et provisoires. Vérifiez-les contre la phrase et le contexte visibles ; acceptez toute traduction équivalente. Ne pénalisez jamais une formulation différente ni des exigences absentes du texte."
+        : config.source === "en"
+          ? " question.rubric contains provisional reference translations and meaning criteria. Check them against the visible source and context; accept equivalent translations. Never require literal matching or penalize requirements absent from the visible text."
+          : " question.rubric 提供暂定参考译法与含义要点，请对照可见原句和上下文核查；接受等义表达，不按字面匹配，不因原句未包含的要求扣分。";
+  }
   return {
     system: system + "\n" + instruction,
     user: JSON.stringify({

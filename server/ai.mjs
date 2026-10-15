@@ -2,7 +2,7 @@ import { existsSync, readFileSync, writeFileSync, renameSync } from "node:fs";
 import { join } from "node:path";
 import { AppError, ensure, text } from "./model.mjs";
 import { taskPrompt, outputSchema } from "./prompts.mjs";
-export const RULE_VERSION = "translation-v6";
+export const RULE_VERSION = "translation-v7";
 export function validateAI(task, o) {
   ensure(o && typeof o === "object" && !Array.isArray(o), "AI_FORMAT", 502);
   const str = (v, max = 10000, empty = false) => {

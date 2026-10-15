@@ -2296,3 +2296,19 @@ textarea:disabled {
     scroll-behavior: auto !important;
   }
 }
+
+.question-source {
+  margin-top: 1rem;
+  color: var(--muted, #64716d);
+  font-size: 0.78rem;
+}
+.source-attribution {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+  overflow-wrap: anywhere;
+}
+.source-attribution a {
+  color: inherit;
+  text-underline-offset: 0.16em;
+}

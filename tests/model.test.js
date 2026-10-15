@@ -30,6 +30,14 @@ test("six directions are valid; same language and invalid level rejected", () =>
     validateConfig({ source: "zh", target: "en", role: "daily", level: 6 }),
   );
 });
+test("question source defaults to auto and rejects unsupported selections", () => {
+  const config = { source: "zh", target: "en", role: "daily", level: 2 };
+  assert.equal(validateConfig(config).questionSource, "auto");
+  for (const questionSource of ["auto", "local", "ai"])
+    assert.equal(validateConfig({ ...config, questionSource }).questionSource, questionSource);
+  for (const questionSource of ["other", "", false])
+    assert.throws(() => validateConfig({ ...config, questionSource }), /INVALID_INPUT/);
+});
 test("five first answers slowly adjust; revisions, reviews and fixed mode excluded", () => {
   const c = { config: { level: 3, mode: "auto" }, window: [], adjustments: [] };
   updateDifficulty(c, {
@@ -115,4 +123,48 @@ test("public view hides reference translations and diagnostic feedback", () => {
   assert.deepEqual(view.questions[1].knowledge, []);
   assert.equal(view.questions[1].attempts[0].feedback, undefined);
   assert.equal(s.questions[0].reference, "secret");
+});
+
+test("public view always strips rubric and withholds provenance throughout unfinished diagnostics", () => {
+  const s = initialState();
+  s.questions.push({
+    id: "q",
+    diagnosticId: "d",
+    reference: "SECRET",
+    rubric: { references: ["SECRET"], requiredMeaning: ["SECRET"] },
+    provenance: [{ url: "SECRET-LINK" }],
+    knowledge: ["SECRET-HINT"],
+    attempts: [{ status: "completed", feedback: { references: ["SECRET"] } }],
+  });
+  s.diagnostics.push({ id: "d", status: "active" });
+  let q = publicState(s).questions[0];
+  assert.equal(q.rubric, undefined);
+  assert.equal(q.provenance, undefined);
+  assert.equal(q.attempts[0].feedback, undefined);
+  s.diagnostics[0].status = "completed";
+  q = publicState(s).questions[0];
+  assert.equal(q.rubric, undefined);
+  assert.equal(q.provenance.length, 1);
+  assert.ok(q.attempts[0].feedback);
+});
+
+test("pre-answer metadata cannot disclose translation sentence IDs through task or family IDs", () => {
+  const s = initialState();
+  s.questions.push({
+    id: "q",
+    metadata: {
+      provider: "corpus",
+      taskId: "tatoeba-1-SECRET-TARGET-ID",
+      groupId: "tatoeba-family-SECRET-TARGET-ID",
+    },
+    reference: "secret",
+    rubric: {},
+    provenance: [],
+    knowledge: [],
+    attempts: [],
+  });
+  const q = publicState(s).questions[0];
+  assert.equal(q.metadata.taskId, undefined);
+  assert.equal(q.metadata.groupId, undefined);
+  assert.equal(q.metadata.provider, "corpus");
 });

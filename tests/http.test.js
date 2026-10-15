@@ -113,3 +113,39 @@ test("backup preview, confirmation, automatic safety copy and invalid import rol
   assert.equal(invalid.status, 400);
   assert.equal(store.read().settings.uiLanguage, "system");
 });
+
+test("HTTP serves local sentences in all six directions without an AI request or answer leakage", async (t) => {
+  const { url } = await app(t);
+  const { token } = await (await fetch(url + "/api/state")).json();
+  const headers = {
+    "Content-Type": "application/json",
+    "X-Local-Token": token,
+  };
+  for (const source of ["zh", "en", "fr"])
+    for (const target of ["zh", "en", "fr"])
+      if (source !== target) {
+        const response = await fetch(url + "/api/conversations", {
+          method: "POST",
+          headers,
+          body: JSON.stringify({
+            source,
+            target,
+            level: 2,
+            mode: "fixed",
+            role: "daily",
+            skipDiagnostic: true,
+          }),
+        });
+        assert.equal(response.status, 200);
+        const { state } = await (await fetch(url + "/api/state")).json();
+        const c = state.conversations.at(-1),
+          q = state.questions.find((q) => q.id === c.currentQuestionId);
+        assert.equal(q.metadata.provider, "corpus", `${source}-${target}`);
+        assert.equal(q.snapshot.source, source);
+        assert.equal(q.snapshot.target, target);
+        assert.equal(q.reference, undefined);
+        assert.equal(q.rubric, undefined);
+        assert.equal(q.provenance, undefined);
+      }
+  assert.equal((await fetch(url + "/corpus/tasks.json")).status, 404);
+});

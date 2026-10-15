@@ -628,6 +628,7 @@ async function submitForm(form) {
           scene: v.scene,
           level: Number(v.level),
           mode: v.mode,
+          questionSource: v.questionSource,
         },
         ...(!state.profiles[target] ? { selfLevel: Number(v.level) } : {}),
       });
